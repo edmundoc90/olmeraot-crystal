@@ -1,0 +1,2759 @@
+<?xml version="1.0"?>
+<monsters>
+	<monster centerx="32910" centery="31413" centerz="1" radius="5">
+		<monster name="Norcferatu Nightweaver" x="0" y="0" z="1" spawntime="60" />
+		<monster name="Varg" x="4" y="0" z="1" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="-1" y="5" z="1" spawntime="60" />
+	</monster>
+	<monster centerx="32914" centery="31413" centerz="1" radius="5">
+		<monster name="Norcferatu Heartless" x="5" y="5" z="1" spawntime="60" />
+	</monster>
+	<monster centerx="32928" centery="31415" centerz="1" radius="5">
+		<monster name="Gloom Maw" x="0" y="0" z="1" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="2" y="3" z="1" spawntime="60" />
+		<monster name="Varg" x="0" y="4" z="1" spawntime="60" />
+	</monster>
+	<monster centerx="32919" centery="31418" centerz="1" radius="5">
+		<monster name="Norcferatu Heartless" x="-2" y="3" z="1" spawntime="60" />
+	</monster>
+	<monster centerx="32930" centery="31418" centerz="1" radius="5">
+		<monster name="Norcferatu Heartless" x="-4" y="5" z="1" spawntime="60" />
+		<monster name="Varg" x="-1" y="5" z="1" spawntime="60" />
+	</monster>
+	<monster centerx="32917" centery="31421" centerz="1" radius="5">
+		<monster name="Bonebeast" x="-2" y="3" z="1" spawntime="60" />
+	</monster>
+	<monster centerx="32926" centery="31423" centerz="1" radius="5">
+		<monster name="Orclops Bloodbreaker" x="0" y="4" z="1" spawntime="60" />
+	</monster>
+	<monster centerx="32926" centery="31427" centerz="1" radius="5">
+		<monster name="Gloom Maw" x="0" y="2" z="1" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="3" y="4" z="1" spawntime="60" />
+	</monster>
+	<monster centerx="32919" centery="31430" centerz="1" radius="5">
+		<monster name="Varg" x="0" y="0" z="1" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="-1" y="1" z="1" spawntime="60" />
+	</monster>
+	<monster centerx="32929" centery="31431" centerz="1" radius="5">
+		<monster name="Varg" x="3" y="1" z="1" spawntime="60" />
+	</monster>
+	<monster centerx="32908" centery="31432" centerz="1" radius="5">
+		<monster name="Norcferatu Nightweaver" x="0" y="0" z="1" spawntime="60" />
+	</monster>
+	<monster centerx="32932" centery="31415" centerz="2" radius="5">
+		<monster name="Norcferatu Heartless" x="0" y="0" z="2" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="0" y="1" z="2" spawntime="60" />
+	</monster>
+	<monster centerx="32912" centery="31416" centerz="2" radius="5">
+		<monster name="Norcferatu Heartless" x="0" y="0" z="2" spawntime="60" />
+		<monster name="Varg" x="4" y="1" z="2" spawntime="60" />
+	</monster>
+	<monster centerx="32916" centery="31417" centerz="2" radius="5">
+		<monster name="Norcferatu Heartless" x="3" y="2" z="2" spawntime="60" />
+	</monster>
+	<monster centerx="32933" centery="31422" centerz="2" radius="5">
+		<monster name="Norcferatu Nightweaver" x="0" y="0" z="2" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="0" y="2" z="2" spawntime="60" />
+		<monster name="Varg" x="0" y="5" z="2" spawntime="60" />
+	</monster>
+	<monster centerx="32922" centery="31425" centerz="2" radius="5">
+		<monster name="Orclops Bloodbreaker" x="0" y="0" z="2" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="-4" y="3" z="2" spawntime="60" />
+		<monster name="Varg" x="0" y="3" z="2" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="3" y="3" z="2" spawntime="60" />
+	</monster>
+	<monster centerx="32909" centery="31426" centerz="2" radius="5">
+		<monster name="Varg" x="0" y="0" z="2" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="1" y="0" z="2" spawntime="60" />
+		<monster name="Varg" x="2" y="0" z="2" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="5" y="0" z="2" spawntime="60" />
+		<monster name="Varg" x="2" y="1" z="2" spawntime="60" />
+	</monster>
+	<monster centerx="32933" centery="31427" centerz="2" radius="5">
+		<monster name="Orclops Bloodbreaker" x="-4" y="5" z="2" spawntime="60" />
+	</monster>
+	<monster centerx="32920" centery="31435" centerz="2" radius="5">
+		<monster name="Norcferatu Nightweaver" x="0" y="0" z="2" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="3" y="0" z="2" spawntime="60" />
+	</monster>
+	<monster centerx="32914" centery="31437" centerz="2" radius="5">
+		<monster name="Norcferatu Nightweaver" x="0" y="0" z="2" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="-4" y="1" z="2" spawntime="60" />
+	</monster>
+	<monster centerx="32950" centery="31437" centerz="2" radius="5">
+		<monster name="Vampire" x="0" y="0" z="2" spawntime="60" />
+		<monster name="Vampire Bride" x="-2" y="2" z="2" spawntime="60" />
+	</monster>
+	<monster centerx="32948" centery="31439" centerz="2" radius="5">
+		<monster name="Vampire" x="0" y="4" z="2" spawntime="60" />
+	</monster>
+	<monster centerx="32948" centery="31443" centerz="2" radius="5">
+		<monster name="Vampire Bride" x="-2" y="3" z="2" spawntime="60" />
+	</monster>
+	<monster centerx="32942" centery="31471" centerz="2" radius="5">
+		<monster name="Haunted Treeling" x="0" y="0" z="2" spawntime="60" />
+	</monster>
+	<monster centerx="32935" centery="31480" centerz="2" radius="5">
+		<monster name="Haunted Treeling" x="0" y="0" z="2" spawntime="60" />
+	</monster>
+	<monster centerx="32914" centery="31425" centerz="3" radius="5">
+		<monster name="Norcferatu Nightweaver" x="0" y="0" z="3" spawntime="60" />
+	</monster>
+	<monster centerx="32921" centery="31428" centerz="3" radius="5">
+		<monster name="Norcferatu Nightweaver" x="0" y="0" z="3" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="5" y="2" z="3" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="3" y="3" z="3" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="1" y="4" z="3" spawntime="60" />
+	</monster>
+	<monster centerx="32912" centery="31431" centerz="3" radius="5">
+		<monster name="Dworc Shadowstalker" x="0" y="0" z="3" spawntime="60" />
+	</monster>
+	<monster centerx="32949" centery="31439" centerz="3" radius="5">
+		<monster name="Vampire" x="0" y="0" z="3" spawntime="60" />
+	</monster>
+	<monster centerx="32903" centery="31445" centerz="3" radius="5">
+		<monster name="Norcferatu Nightweaver" x="0" y="0" z="3" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="3" y="1" z="3" spawntime="60" />
+	</monster>
+	<monster centerx="32906" centery="31446" centerz="3" radius="5">
+		<monster name="Norcferatu Heartless" x="5" y="0" z="3" spawntime="60" />
+	</monster>
+	<monster centerx="32937" centery="31464" centerz="3" radius="5">
+		<monster name="Nightmare Scion" x="0" y="0" z="3" spawntime="60" />
+		<monster name="Vampire Bride" x="1" y="0" z="3" spawntime="60" />
+	</monster>
+	<monster centerx="32940" centery="31484" centerz="3" radius="5">
+		<monster name="Haunted Treeling" x="0" y="0" z="3" spawntime="60" />
+		<monster name="Bog Raider" x="4" y="0" z="3" spawntime="60" />
+	</monster>
+	<monster centerx="32813" centery="31220" centerz="4" radius="5">
+		<monster name="Yalahari" x="0" y="0" z="4" spawntime="60" />
+	</monster>
+	<monster centerx="32918" centery="31420" centerz="4" radius="5">
+		<monster name="Varg" x="0" y="0" z="4" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="5" y="0" z="4" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="2" y="1" z="4" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="2" y="2" z="4" spawntime="60" />
+	</monster>
+	<monster centerx="32923" centery="31420" centerz="4" radius="5">
+		<monster name="Varg" x="2" y="4" z="4" spawntime="60" />
+	</monster>
+	<monster centerx="32920" centery="31421" centerz="4" radius="5">
+		<monster name="Norcferatu Heartless" x="3" y="5" z="4" spawntime="60" />
+	</monster>
+	<monster centerx="32925" centery="31424" centerz="4" radius="5">
+		<monster name="Orclops Bloodbreaker" x="1" y="2" z="4" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="-4" y="4" z="4" spawntime="60" />
+		<monster name="Gloom Maw" x="-5" y="5" z="4" spawntime="60" />
+	</monster>
+	<monster centerx="32935" centery="31424" centerz="4" radius="5">
+		<monster name="Norcferatu Heartless" x="0" y="0" z="4" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="-4" y="1" z="4" spawntime="60" />
+	</monster>
+	<monster centerx="32921" centery="31428" centerz="4" radius="5">
+		<monster name="Varg" x="-5" y="1" z="4" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="-5" y="2" z="4" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="-3" y="4" z="4" spawntime="60" />
+		<monster name="Varg" x="1" y="4" z="4" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="5" y="4" z="4" spawntime="60" />
+	</monster>
+	<monster centerx="32916" centery="31429" centerz="4" radius="5">
+		<monster name="Norcferatu Heartless" x="-3" y="1" z="4" spawntime="60" />
+	</monster>
+	<monster centerx="32913" centery="31430" centerz="4" radius="5">
+		<monster name="Norcferatu Heartless" x="-4" y="3" z="4" spawntime="60" />
+	</monster>
+	<monster centerx="32911" centery="31442" centerz="4" radius="5">
+		<monster name="Norcferatu Nightweaver" x="0" y="0" z="4" spawntime="60" />
+	</monster>
+	<monster centerx="32934" centery="31463" centerz="4" radius="5">
+		<monster name="Werewolf" x="0" y="0" z="4" spawntime="60" />
+		<monster name="Nightmare Scion" x="2" y="1" z="4" spawntime="60" />
+		<monster name="Vampire Bride" x="4" y="1" z="4" spawntime="60" />
+	</monster>
+	<monster centerx="32939" centery="31472" centerz="4" radius="5">
+		<monster name="Earth Elemental" x="0" y="0" z="4" spawntime="60" />
+		<monster name="Vampire" x="1" y="2" z="4" spawntime="60" />
+	</monster>
+	<monster centerx="33262" centery="31825" centerz="4" radius="5">
+		<monster name="Snake" x="0" y="0" z="4" spawntime="60" />
+		<monster name="Rat" x="-4" y="1" z="4" spawntime="60" />
+	</monster>
+	<monster centerx="32943" centery="31414" centerz="5" radius="5">
+		<monster name="Varg" x="0" y="0" z="5" spawntime="60" />
+		<monster name="Gloom Maw" x="-2" y="1" z="5" spawntime="60" />
+		<monster name="Gloom Maw" x="4" y="1" z="5" spawntime="60" />
+	</monster>
+	<monster centerx="32935" centery="31415" centerz="5" radius="5">
+		<monster name="Norcferatu Heartless" x="0" y="0" z="5" spawntime="60" />
+		<monster name="Varg" x="1" y="0" z="5" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="-1" y="1" z="5" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="0" y="3" z="5" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="2" y="3" z="5" spawntime="60" />
+	</monster>
+	<monster centerx="32947" centery="31415" centerz="5" radius="5">
+		<monster name="Gloom Maw" x="3" y="1" z="5" spawntime="60" />
+	</monster>
+	<monster centerx="32196" centery="31416" centerz="5" radius="5">
+		<monster name="Frost Dragon" x="0" y="0" z="5" spawntime="60" />
+		<monster name="Frost Dragon" x="-1" y="3" z="5" spawntime="60" />
+		<monster name="Frost Dragon" x="-2" y="4" z="5" spawntime="60" />
+		<monster name="Frost Dragon" x="1" y="4" z="5" spawntime="60" />
+	</monster>
+	<monster centerx="32919" centery="31416" centerz="5" radius="5">
+		<monster name="crate" x="0" y="0" z="5" spawntime="60" />
+	</monster>
+	<monster centerx="32950" centery="31416" centerz="5" radius="5">
+		<monster name="Varg" x="4" y="3" z="5" spawntime="60" />
+	</monster>
+	<monster centerx="32928" centery="31418" centerz="5" radius="5">
+		<monster name="Blood Totem" x="0" y="0" z="5" spawntime="60" />
+	</monster>
+	<monster centerx="32935" centery="31418" centerz="5" radius="5">
+		<monster name="Norcferatu Heartless" x="0" y="4" z="5" spawntime="60" />
+	</monster>
+	<monster centerx="32958" centery="31418" centerz="5" radius="5">
+		<monster name="Varg" x="0" y="0" z="5" spawntime="60" />
+		<monster name="Varg" x="0" y="1" z="5" spawntime="60" />
+	</monster>
+	<monster centerx="32912" centery="31420" centerz="5" radius="5">
+		<monster name="Blind Monstrosity" x="0" y="0" z="5" spawntime="60" />
+		<monster name="Tarantula" x="5" y="5" z="5" spawntime="60" />
+	</monster>
+	<monster centerx="32976" centery="31420" centerz="5" radius="5">
+		<monster name="Skeleton" x="0" y="0" z="5" spawntime="60" />
+		<monster name="Skeleton" x="1" y="0" z="5" spawntime="60" />
+		<monster name="Ghoul" x="4" y="0" z="5" spawntime="60" />
+		<monster name="Ghoul" x="-3" y="4" z="5" spawntime="60" />
+	</monster>
+	<monster centerx="32935" centery="31422" centerz="5" radius="5">
+		<monster name="Varg" x="2" y="3" z="5" spawntime="60" />
+	</monster>
+	<monster centerx="32917" centery="31425" centerz="5" radius="5">
+		<monster name="Norcferatu Heartless" x="3" y="1" z="5" spawntime="60" />
+		<monster name="Tarantula" x="-3" y="3" z="5" spawntime="60" />
+		<monster name="Varg" x="-2" y="5" z="5" spawntime="60" />
+	</monster>
+	<monster centerx="32937" centery="31425" centerz="5" radius="5">
+		<monster name="Dworc Shadowstalker" x="-5" y="3" z="5" spawntime="60" />
+	</monster>
+	<monster centerx="32920" centery="31426" centerz="5" radius="5">
+		<monster name="Gloom Maw" x="-3" y="5" z="5" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="4" y="5" z="5" spawntime="60" />
+		<monster name="Gloom Maw" x="5" y="5" z="5" spawntime="60" />
+	</monster>
+	<monster centerx="32926" centery="31426" centerz="5" radius="5">
+		<monster name="Norcferatu Nightweaver" x="0" y="0" z="5" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="2" y="0" z="5" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="4" y="5" z="5" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="5" y="5" z="5" spawntime="60" />
+	</monster>
+	<monster centerx="32914" centery="31428" centerz="5" radius="5">
+		<monster name="Norcferatu Heartless" x="-2" y="5" z="5" spawntime="60" />
+	</monster>
+	<monster centerx="32932" centery="31428" centerz="5" radius="5">
+		<monster name="Norcferatu Heartless" x="-3" y="5" z="5" spawntime="60" />
+	</monster>
+	<monster centerx="32915" centery="31430" centerz="5" radius="5">
+		<monster name="Varg" x="5" y="2" z="5" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="0" y="4" z="5" spawntime="60" />
+		<monster name="Varg" x="-1" y="5" z="5" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="4" y="5" z="5" spawntime="60" />
+	</monster>
+	<monster centerx="32917" centery="31431" centerz="5" radius="5">
+		<monster name="Varg" x="0" y="5" z="5" spawntime="60" />
+	</monster>
+	<monster centerx="32920" centery="31432" centerz="5" radius="5">
+		<monster name="Varg" x="-2" y="5" z="5" spawntime="60" />
+	</monster>
+	<monster centerx="32915" centery="31434" centerz="5" radius="5">
+		<monster name="Varg" x="3" y="4" z="5" spawntime="60" />
+	</monster>
+	<monster centerx="32905" centery="31443" centerz="5" radius="5">
+		<monster name="Norcferatu Heartless" x="0" y="0" z="5" spawntime="60" />
+	</monster>
+	<monster centerx="32942" centery="31472" centerz="5" radius="5">
+		<monster name="Haunted Treeling" x="0" y="0" z="5" spawntime="60" />
+	</monster>
+	<monster centerx="32941" centery="31478" centerz="5" radius="5">
+		<monster name="Haunted Treeling" x="0" y="0" z="5" spawntime="60" />
+	</monster>
+	<monster centerx="32823" centery="31208" centerz="6" radius="5">
+		<monster name="Yalahari" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="32928" centery="31410" centerz="6" radius="5">
+		<monster name="Norcferatu Heartless" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="0" y="4" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="32943" centery="31413" centerz="6" radius="5">
+		<monster name="Varg" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Varg" x="-3" y="3" z="6" spawntime="60" />
+		<monster name="Gloom Maw" x="0" y="3" z="6" spawntime="60" />
+		<monster name="Gloom Maw" x="3" y="3" z="6" spawntime="60" />
+		<monster name="Varg" x="-2" y="4" z="6" spawntime="60" />
+		<monster name="Gloom Maw" x="0" y="4" z="6" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="-4" y="5" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="32928" centery="31414" centerz="6" radius="5">
+		<monster name="Norcferatu Heartless" x="-4" y="2" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="32920" centery="31415" centerz="6" radius="5">
+		<monster name="Norcferatu Nightweaver" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="0" y="3" z="6" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="-3" y="5" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="32940" centery="31416" centerz="6" radius="5">
+		<monster name="Orclops Bloodbreaker" x="-3" y="5" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="32913" centery="31417" centerz="6" radius="5">
+		<monster name="Dworc Shadowstalker" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="-3" y="1" z="6" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="1" y="1" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="32941" centery="31417" centerz="6" radius="5">
+		<monster name="Norcferatu Heartless" x="-5" y="5" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="32910" centery="31418" centerz="6" radius="5">
+		<monster name="Norcferatu Heartless" x="-1" y="5" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="32914" centery="31418" centerz="6" radius="5">
+		<monster name="Norcferatu Heartless" x="4" y="5" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="32934" centery="31418" centerz="6" radius="5">
+		<monster name="Norcferatu Nightweaver" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="3" y="5" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="32193" centery="31421" centerz="6" radius="5">
+		<monster name="Frost Dragon" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="32937" centery="31421" centerz="6" radius="5">
+		<monster name="Norcferatu Heartless" x="0" y="3" z="6" spawntime="60" />
+		<monster name="Gloom Maw" x="4" y="3" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="32186" centery="31423" centerz="6" radius="5">
+		<monster name="Frost Dragon" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="32909" centery="31423" centerz="6" radius="5">
+		<monster name="Norcferatu Nightweaver" x="-4" y="1" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="32937" centery="31423" centerz="6" radius="5">
+		<monster name="Norcferatu Heartless" x="-2" y="5" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="32905" centery="31424" centerz="6" radius="5">
+		<monster name="Varg" x="0" y="5" z="6" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="3" y="5" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="32935" centery="31428" centerz="6" radius="5">
+		<monster name="Norcferatu Nightweaver" x="-4" y="2" z="6" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="1" y="2" z="6" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="-2" y="5" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="32905" centery="31429" centerz="6" radius="5">
+		<monster name="Varg" x="-1" y="1" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="32931" centery="31430" centerz="6" radius="5">
+		<monster name="Gloom Maw" x="-3" y="1" z="6" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="-2" y="1" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="32906" centery="31436" centerz="6" radius="5">
+		<monster name="Norcferatu Heartless" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="5" y="0" z="6" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="2" y="2" z="6" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="0" y="3" z="6" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="3" y="3" z="6" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="-1" y="4" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="32911" centery="31436" centerz="6" radius="5">
+		<monster name="Norcferatu Nightweaver" x="4" y="-1" z="6" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="3" y="2" z="6" spawntime="60" />
+		<monster name="Gloom Maw" x="4" y="5" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="32915" centery="31436" centerz="6" radius="5">
+		<monster name="Norcferatu Heartless" x="3" y="4" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="32906" centery="31447" centerz="6" radius="5">
+		<monster name="Norcferatu Nightweaver" x="0" y="0" z="6" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="-3" y="3" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="32937" centery="31483" centerz="6" radius="5">
+		<monster name="Haunted Treeling" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="33006" centery="32037" centerz="6" radius="5">
+		<monster name="Pigeon" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="32814" centery="31228" centerz="7" radius="5">
+		<monster name="Squirrel" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Cat" x="-1" y="2" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="32932" centery="31412" centerz="7" radius="5">
+		<monster name="Norcferatu Nightweaver" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="32916" centery="31414" centerz="7" radius="5">
+		<monster name="Orclops Bloodbreaker" x="2" y="-2" z="7" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="-1" y="-1" z="7" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="-3" y="0" z="7" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="3" y="1" z="7" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="-2" y="3" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="32944" centery="31415" centerz="7" radius="5">
+		<monster name="Orclops Bloodbreaker" x="0" y="-4" z="7" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="2" y="-4" z="7" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="-1" y="-2" z="7" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="2" y="-2" z="7" spawntime="60" />
+		<monster name="Varg" x="0" y="1" z="7" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="2" y="1" z="7" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="3" y="2" z="7" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="-5" y="5" z="7" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="2" y="5" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="32909" centery="31418" centerz="7" radius="5">
+		<monster name="Norcferatu Nightweaver" x="1" y="-5" z="7" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="1" y="-3" z="7" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="-4" y="-1" z="7" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="32960" centery="31418" centerz="7" radius="5">
+		<monster name="Gloom Maw" x="-5" y="-4" z="7" spawntime="60" />
+		<monster name="Varg" x="-3" y="-4" z="7" spawntime="60" />
+		<monster name="Varg" x="2" y="-3" z="7" spawntime="60" />
+		<monster name="Varg" x="1" y="-1" z="7" spawntime="60" />
+		<monster name="Varg" x="2" y="0" z="7" spawntime="60" />
+		<monster name="Varg" x="-2" y="4" z="7" spawntime="60" />
+		<monster name="Varg" x="4" y="4" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="32930" centery="31419" centerz="7" radius="5">
+		<monster name="Orclops Bloodbreaker" x="-5" y="-2" z="7" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="-4" y="-1" z="7" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="-1" y="0" z="7" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="1" y="1" z="7" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="-5" y="3" z="7" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="-2" y="4" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="32921" centery="31421" centerz="7" radius="5">
+		<monster name="Orclops Bloodbreaker" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="-3" y="2" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="32958" centery="31423" centerz="7" radius="1">
+		<monster name="Varg" x="0" y="1" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="32938" centery="31428" centerz="7" radius="5">
+		<monster name="Norcferatu Heartless" x="-3" y="-1" z="7" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="3" y="0" z="7" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="2" y="1" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="32905" centery="31429" centerz="7" radius="5">
+		<monster name="Norcferatu Heartless" x="-3" y="-2" z="7" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="2" y="0" z="7" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="3" y="2" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="32925" centery="31433" centerz="7" radius="1">
+		<monster name="Gloom Maw" x="-1" y="0" z="7" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="0" y="1" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="32906" centery="31435" centerz="7" radius="5">
+		<monster name="Norcferatu Nightweaver" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Gloom Maw" x="0" y="2" z="7" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="-5" y="5" z="7" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="2" y="5" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="32917" centery="31436" centerz="7" radius="5">
+		<monster name="Orclops Bloodbreaker" x="0" y="-5" z="7" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="-5" y="1" z="7" spawntime="60" />
+		<monster name="Gloom Maw" x="-3" y="1" z="7" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="1" y="3" z="7" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="1" y="4" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="32908" centery="31443" centerz="7" radius="5">
+		<monster name="Gloom Maw" x="-5" y="0" z="7" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Gloom Maw" x="2" y="0" z="7" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="5" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="32927" centery="31463" centerz="7" radius="5">
+		<monster name="Haunted Treeling" x="2" y="-2" z="7" spawntime="60" />
+		<monster name="Haunted Treeling" x="-1" y="-1" z="7" spawntime="60" />
+		<monster name="Haunted Treeling" x="2" y="-1" z="7" spawntime="60" />
+		<monster name="Haunted Treeling" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Tarantula" x="-1" y="1" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="32925" centery="31474" centerz="7" radius="5">
+		<monster name="Haunted Treeling" x="1" y="-2" z="7" spawntime="60" />
+		<monster name="Haunted Treeling" x="-2" y="2" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="32906" centery="31477" centerz="7" radius="5">
+		<monster name="Haunted Treeling" x="0" y="-3" z="7" spawntime="60" />
+		<monster name="Haunted Treeling" x="-4" y="-1" z="7" spawntime="60" />
+		<monster name="Haunted Treeling" x="4" y="-1" z="7" spawntime="60" />
+		<monster name="Haunted Treeling" x="-3" y="0" z="7" spawntime="60" />
+		<monster name="Demon Skeleton" x="4" y="2" z="7" spawntime="60" />
+		<monster name="Demon Skeleton" x="-1" y="4" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="32900" centery="31485" centerz="7" radius="2">
+		<monster name="Haunted Treeling" x="0" y="-2" z="7" spawntime="60" />
+		<monster name="Haunted Treeling" x="-2" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="32541" centery="31771" centerz="7" radius="5">
+		<monster name="Bat" x="0" y="0" z="7" spawntime="60" />
+		<monster name="Bat" x="-1" y="1" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="32377" centery="31774" centerz="7" radius="5">
+		<monster name="Cat" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="33204" centery="31842" centerz="7" radius="5">
+		<monster name="Dog" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="33006" centery="32023" centerz="7" radius="5">
+		<monster name="Marsh Stalker" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="32275" centery="32870" centerz="7" radius="5">
+		<monster name="Rat" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="32306" centery="32873" centerz="7" radius="5">
+		<monster name="Rat" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="32284" centery="32874" centerz="7" radius="5">
+		<monster name="Rat" x="0" y="0" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="32860" centery="31364" centerz="8" radius="5">
+		<monster name="Norcferatu Nightweaver" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="1" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32837" centery="31365" centerz="8" radius="5">
+		<monster name="Dworc Shadowstalker" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32897" centery="31366" centerz="8" radius="5">
+		<monster name="Orclops Bloodbreaker" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="5" y="1" z="8" spawntime="60" />
+		<monster name="Gloom Maw" x="-3" y="4" z="8" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="3" y="4" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32884" centery="31367" centerz="8" radius="5">
+		<monster name="Norcferatu Nightweaver" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="4" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32902" centery="31367" centerz="8" radius="5">
+		<monster name="Norcferatu Heartless" x="1" y="2" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32844" centery="31370" centerz="8" radius="5">
+		<monster name="Norcferatu Heartless" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32872" centery="31370" centerz="8" radius="5">
+		<monster name="Dworc Shadowstalker" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32866" centery="31371" centerz="8" radius="5">
+		<monster name="Gloom Maw" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32836" centery="31375" centerz="8" radius="5">
+		<monster name="Dworc Shadowstalker" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="2" y="4" z="8" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="2" y="5" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32848" centery="31376" centerz="8" radius="5">
+		<monster name="Gloom Maw" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="-4" y="5" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32866" centery="31377" centerz="8" radius="5">
+		<monster name="Norcferatu Heartless" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="2" y="3" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32922" centery="31379" centerz="8" radius="5">
+		<monster name="Varg" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32829" centery="31381" centerz="8" radius="5">
+		<monster name="Orclops Bloodbreaker" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Varg" x="1" y="4" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32844" centery="31381" centerz="8" radius="5">
+		<monster name="Dworc Shadowstalker" x="0" y="4" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32928" centery="31382" centerz="8" radius="5">
+		<monster name="Gloom Maw" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="4" y="0" z="8" spawntime="60" />
+		<monster name="Varg" x="-3" y="5" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32844" centery="31385" centerz="8" radius="5">
+		<monster name="Norcferatu Nightweaver" x="-3" y="3" z="8" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="2" y="3" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32921" centery="31386" centerz="8" radius="5">
+		<monster name="Varg" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="-4" y="3" z="8" spawntime="60" />
+		<monster name="Varg" x="2" y="5" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32865" centery="31387" centerz="8" radius="5">
+		<monster name="Dworc Shadowstalker" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="4" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32925" centery="31387" centerz="8" radius="5">
+		<monster name="Dworc Shadowstalker" x="-3" y="5" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32820" centery="31390" centerz="8" radius="5">
+		<monster name="Varg" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="-4" y="1" z="8" spawntime="60" />
+		<monster name="Gloom Maw" x="2" y="3" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32816" centery="31391" centerz="8" radius="5">
+		<monster name="Gloom Maw" x="-3" y="4" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32923" centery="31391" centerz="8" radius="5">
+		<monster name="Norcferatu Heartless" x="-3" y="5" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32822" centery="31393" centerz="8" radius="5">
+		<monster name="Dworc Shadowstalker" x="0" y="4" z="8" spawntime="60" />
+		<monster name="Varg" x="-1" y="5" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32869" centery="31394" centerz="8" radius="5">
+		<monster name="Orclops Bloodbreaker" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Gloom Maw" x="3" y="3" z="8" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="1" y="5" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32892" centery="31394" centerz="8" radius="5">
+		<monster name="Gloom Maw" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="5" y="0" z="8" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="-5" y="3" z="8" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="2" y="3" z="8" spawntime="60" />
+		<monster name="Gloom Maw" x="2" y="5" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32846" centery="31397" centerz="8" radius="5">
+		<monster name="Gloom Maw" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32859" centery="31397" centerz="8" radius="5">
+		<monster name="Orclops Bloodbreaker" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="-4" y="3" z="8" spawntime="60" />
+		<monster name="Gloom Maw" x="-3" y="4" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32884" centery="31397" centerz="8" radius="5">
+		<monster name="Orclops Bloodbreaker" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="-4" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32894" centery="31397" centerz="8" radius="5">
+		<monster name="Norcferatu Nightweaver" x="4" y="4" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32904" centery="31397" centerz="8" radius="5">
+		<monster name="Orclops Bloodbreaker" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32855" centery="31400" centerz="8" radius="5">
+		<monster name="Dworc Shadowstalker" x="0" y="5" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32898" centery="31401" centerz="8" radius="5">
+		<monster name="Gloom Maw" x="1" y="4" z="8" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="3" y="5" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32916" centery="31404" centerz="8" radius="5">
+		<monster name="Gloom Maw" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Varg" x="-2" y="2" z="8" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="1" y="2" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32855" centery="31405" centerz="8" radius="5">
+		<monster name="Gloom Maw" x="-3" y="2" z="8" spawntime="60" />
+		<monster name="Gloom Maw" x="0" y="3" z="8" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="-1" y="4" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32844" centery="31406" centerz="8" radius="5">
+		<monster name="Norcferatu Heartless" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="1" y="3" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32823" centery="31409" centerz="8" radius="5">
+		<monster name="Orclops Bloodbreaker" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32815" centery="31410" centerz="8" radius="5">
+		<monster name="Dworc Shadowstalker" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="2" y="2" z="8" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="-1" y="4" z="8" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="0" y="4" z="8" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="4" y="5" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32937" centery="31410" centerz="8" radius="5">
+		<monster name="Orclops Bloodbreaker" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32817" centery="31412" centerz="8" radius="5">
+		<monster name="Norcferatu Heartless" x="0" y="4" z="8" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="0" y="5" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32915" centery="31412" centerz="8" radius="5">
+		<monster name="Gloom Maw" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="2" y="1" z="8" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="0" y="2" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32814" centery="31414" centerz="8" radius="5">
+		<monster name="Orclops Bloodbreaker" x="3" y="4" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32817" centery="31417" centerz="8" radius="5">
+		<monster name="Norcferatu Nightweaver" x="-2" y="5" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32832" centery="31419" centerz="8" radius="5">
+		<monster name="Norcferatu Nightweaver" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="-5" y="2" z="8" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="3" y="5" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32863" centery="31419" centerz="8" radius="5">
+		<monster name="Gloom Maw" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32890" centery="31419" centerz="8" radius="5">
+		<monster name="Norcferatu Heartless" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Varg" x="1" y="0" z="8" spawntime="60" />
+		<monster name="Varg" x="0" y="1" z="8" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="-3" y="3" z="8" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="0" y="3" z="8" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="-3" y="5" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32925" centery="31419" centerz="8" radius="5">
+		<monster name="Norcferatu Heartless" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="4" y="0" z="8" spawntime="60" />
+		<monster name="Gloom Maw" x="0" y="2" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32925" centery="31421" centerz="8" radius="5">
+		<monster name="Norcferatu Nightweaver" x="-3" y="4" z="8" spawntime="60" />
+		<monster name="Varg" x="2" y="5" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32839" centery="31422" centerz="8" radius="5">
+		<monster name="Varg" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="5" y="2" z="8" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="4" y="3" z="8" spawntime="60" />
+		<monster name="Gloom Maw" x="5" y="5" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32855" centery="31422" centerz="8" radius="5">
+		<monster name="Orclops Bloodbreaker" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Varg" x="-2" y="5" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32887" centery="31422" centerz="8" radius="5">
+		<monster name="Norcferatu Nightweaver" x="0" y="4" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32890" centery="31422" centerz="8" radius="5">
+		<monster name="Norcferatu Nightweaver" x="5" y="4" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32901" centery="31422" centerz="8" radius="5">
+		<monster name="Norcferatu Nightweaver" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="1" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32917" centery="31423" centerz="8" radius="5">
+		<monster name="Norcferatu Heartless" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32844" centery="31424" centerz="8" radius="5">
+		<monster name="Varg" x="4" y="3" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32887" centery="31424" centerz="8" radius="5">
+		<monster name="Orclops Bloodbreaker" x="1" y="4" z="8" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="-3" y="5" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32872" centery="31428" centerz="8" radius="5">
+		<monster name="Norcferatu Heartless" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32888" centery="31428" centerz="8" radius="5">
+		<monster name="Orclops Bloodbreaker" x="1" y="5" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32914" centery="31429" centerz="8" radius="5">
+		<monster name="Norcferatu Heartless" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Varg" x="-4" y="2" z="8" spawntime="60" />
+		<monster name="Varg" x="-5" y="3" z="8" spawntime="60" />
+		<monster name="Varg" x="1" y="3" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32907" centery="31430" centerz="8" radius="5">
+		<monster name="Norcferatu Heartless" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32890" centery="31439" centerz="8" radius="5">
+		<monster name="Norcferatu Heartless" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32909" centery="31440" centerz="8" radius="5">
+		<monster name="Dworc Shadowstalker" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32902" centery="31447" centerz="8" radius="5">
+		<monster name="Gloom Maw" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32513" centery="31754" centerz="8" radius="5">
+		<monster name="Ink Splash" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Ink Splash" x="4" y="2" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="33407" centery="31805" centerz="8" radius="5">
+		<monster name="Destroyer" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Dark Torturer" x="-4" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="33384" centery="31806" centerz="8" radius="5">
+		<monster name="Hellspawn" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Destroyer" x="0" y="5" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="33399" centery="31806" centerz="8" radius="5">
+		<monster name="Grim Reaper" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="33431" centery="31807" centerz="8" radius="5">
+		<monster name="Dark Torturer" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="33384" centery="31811" centerz="8" radius="5">
+		<monster name="Grim Reaper" x="0" y="4" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="33430" centery="31814" centerz="8" radius="5">
+		<monster name="Hellspawn" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Grim Reaper" x="0" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="33285" centery="31815" centerz="8" radius="5">
+		<monster name="Crab" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="33384" centery="31815" centerz="8" radius="5">
+		<monster name="Dark Torturer" x="0" y="5" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="33384" centery="31820" centerz="8" radius="5">
+		<monster name="Hellspawn" x="0" y="3" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="33401" centery="31821" centerz="8" radius="5">
+		<monster name="Dark Torturer" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Grim Reaper" x="-4" y="1" z="8" spawntime="60" />
+		<monster name="Hellspawn" x="4" y="2" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="33416" centery="31821" centerz="8" radius="5">
+		<monster name="Hellspawn" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Grim Reaper" x="3" y="0" z="8" spawntime="60" />
+		<monster name="Destroyer" x="2" y="2" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="33419" centery="31821" centerz="8" radius="5">
+		<monster name="Dark Torturer" x="3" y="2" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="33436" centery="31821" centerz="8" radius="5">
+		<monster name="Grim Reaper" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Hellspawn" x="-2" y="2" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="33393" centery="31822" centerz="8" radius="5">
+		<monster name="Hellspawn" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Destroyer" x="2" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="33442" centery="31822" centerz="8" radius="5">
+		<monster name="Destroyer" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="33452" centery="31822" centerz="8" radius="5">
+		<monster name="Hellspawn" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="33280" centery="31829" centerz="8" radius="5">
+		<monster name="Crab" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="33407" centery="31834" centerz="8" radius="5">
+		<monster name="Grim Reaper" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Dark Torturer" x="-1" y="2" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="33428" centery="31834" centerz="8" radius="5">
+		<monster name="Juggernaut" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Destroyer" x="-4" y="2" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="33446" centery="31834" centerz="8" radius="5">
+		<monster name="Grim Reaper" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Dark Torturer" x="0" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="33406" centery="31836" centerz="8" radius="5">
+		<monster name="Hellspawn" x="3" y="4" z="8" spawntime="60" />
+		<monster name="Grim Reaper" x="2" y="5" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="33391" centery="31837" centerz="8" radius="5">
+		<monster name="Destroyer" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="33383" centery="31839" centerz="8" radius="5">
+		<monster name="Dark Torturer" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Demon" x="0" y="5" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="33408" centery="31841" centerz="8" radius="5">
+		<monster name="Hellhound" x="0" y="5" z="8" spawntime="60" />
+		<monster name="Dark Torturer" x="1" y="5" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="33431" centery="31841" centerz="8" radius="5">
+		<monster name="Dark Torturer" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Destroyer" x="3" y="0" z="8" spawntime="60" />
+		<monster name="Hellspawn" x="-3" y="2" z="8" spawntime="60" />
+		<monster name="Grim Reaper" x="-3" y="3" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="33448" centery="31841" centerz="8" radius="5">
+		<monster name="Destroyer" x="0" y="0" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="33383" centery="31844" centerz="8" radius="5">
+		<monster name="Destroyer" x="2" y="5" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="33389" centery="31847" centerz="8" radius="5">
+		<monster name="Grim Reaper" x="0" y="0" z="8" spawntime="60" />
+		<monster name="Hellspawn" x="0" y="1" z="8" spawntime="60" />
+	</monster>
+	<monster centerx="32900" centery="31357" centerz="9" radius="5">
+		<monster name="Orclops Bloodbreaker" x="0" y="0" z="9" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="-1" y="4" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32837" centery="31362" centerz="9" radius="5">
+		<monster name="Norcferatu Heartless" x="0" y="0" z="9" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="2" y="2" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32886" centery="31365" centerz="9" radius="5">
+		<monster name="Norcferatu Nightweaver" x="0" y="0" z="9" spawntime="60" />
+		<monster name="Gloom Maw" x="3" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32880" centery="31368" centerz="9" radius="5">
+		<monster name="Varg" x="0" y="0" z="9" spawntime="60" />
+		<monster name="Varg" x="-5" y="5" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32837" centery="31370" centerz="9" radius="5">
+		<monster name="Norcferatu Nightweaver" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32906" centery="31371" centerz="9" radius="5">
+		<monster name="Norcferatu Nightweaver" x="0" y="0" z="9" spawntime="60" />
+		<monster name="Gloom Maw" x="4" y="0" z="9" spawntime="60" />
+		<monster name="Gloom Maw" x="-5" y="2" z="9" spawntime="60" />
+		<monster name="Varg" x="-2" y="2" z="9" spawntime="60" />
+		<monster name="Varg" x="1" y="2" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32910" centery="31371" centerz="9" radius="5">
+		<monster name="Gloom Maw" x="3" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32875" centery="31373" centerz="9" radius="5">
+		<monster name="Orclops Bloodbreaker" x="-5" y="1" z="9" spawntime="60" />
+		<monster name="Varg" x="-4" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32870" centery="31374" centerz="9" radius="5">
+		<monster name="Orclops Bloodbreaker" x="-4" y="2" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32884" centery="31374" centerz="9" radius="5">
+		<monster name="Varg" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32826" centery="31375" centerz="9" radius="5">
+		<monster name="Norcferatu Nightweaver" x="0" y="0" z="9" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="2" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32866" centery="31376" centerz="9" radius="5">
+		<monster name="Varg" x="0" y="4" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32836" centery="31379" centerz="9" radius="5">
+		<monster name="Norcferatu Heartless" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32846" centery="31379" centerz="9" radius="5">
+		<monster name="Norcferatu Nightweaver" x="0" y="0" z="9" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="2" y="0" z="9" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="3" y="1" z="9" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="-1" y="4" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32848" centery="31379" centerz="9" radius="5">
+		<monster name="Norcferatu Heartless" x="5" y="4" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32908" centery="31380" centerz="9" radius="5">
+		<monster name="Dworc Shadowstalker" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32845" centery="31383" centerz="9" radius="5">
+		<monster name="Norcferatu Heartless" x="0" y="4" z="9" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="2" y="4" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32853" centery="31383" centerz="9" radius="5">
+		<monster name="Norcferatu Heartless" x="-1" y="3" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32938" centery="31384" centerz="9" radius="3">
+		<monster name="Norcferatu Heartless" x="2" y="-3" z="9" spawntime="60" />
+		<monster name="Varg" x="-1" y="2" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32852" centery="31386" centerz="9" radius="5">
+		<monster name="Norcferatu Heartless" x="2" y="3" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32865" centery="31391" centerz="9" radius="5">
+		<monster name="Dworc Shadowstalker" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32928" centery="31391" centerz="9" radius="3">
+		<monster name="Gloom Maw" x="2" y="-1" z="9" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="0" y="2" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32924" centery="31398" centerz="9" radius="1">
+		<monster name="Varg" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32900" centery="31403" centerz="9" radius="5">
+		<monster name="Varg" x="-2" y="-5" z="9" spawntime="60" />
+		<monster name="Varg" x="3" y="-2" z="9" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="-5" y="-1" z="9" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="0" y="1" z="9" spawntime="60" />
+		<monster name="Varg" x="3" y="4" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32843" centery="31405" centerz="9" radius="5">
+		<monster name="Orclops Bloodbreaker" x="-5" y="0" z="9" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="-1" y="1" z="9" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="1" y="1" z="9" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="3" y="5" z="9" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="4" y="5" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32950" centery="31405" centerz="9" radius="5">
+		<monster name="Norcferatu Nightweaver" x="-3" y="0" z="9" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="3" y="3" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32931" centery="31407" centerz="9" radius="5">
+		<monster name="Norcferatu Nightweaver" x="-5" y="-3" z="9" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="4" y="-3" z="9" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="1" y="0" z="9" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="2" y="4" z="9" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="-2" y="5" z="9" spawntime="60" />
+		<monster name="Varg" x="3" y="5" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32876" centery="31409" centerz="9" radius="5">
+		<monster name="Varg" x="0" y="-5" z="9" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="2" y="-1" z="9" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="3" y="1" z="9" spawntime="60" />
+		<monster name="Gloom Maw" x="-1" y="2" z="9" spawntime="60" />
+		<monster name="Varg" x="2" y="5" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32942" centery="31410" centerz="9" radius="5">
+		<monster name="Norcferatu Nightweaver" x="-3" y="0" z="9" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="-2" y="0" z="9" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="-1" y="0" z="9" spawntime="60" />
+		<monster name="Varg" x="-4" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32894" centery="31415" centerz="9" radius="5">
+		<monster name="Gloom Maw" x="-1" y="-4" z="9" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="0" y="1" z="9" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="1" y="4" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32865" centery="31421" centerz="9" radius="5">
+		<monster name="Gloom Maw" x="1" y="-2" z="9" spawntime="60" />
+		<monster name="Gloom Maw" x="0" y="4" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32885" centery="31424" centerz="9" radius="5">
+		<monster name="Dworc Shadowstalker" x="1" y="-4" z="9" spawntime="60" />
+		<monster name="Gloom Maw" x="-5" y="-2" z="9" spawntime="60" />
+		<monster name="Varg" x="2" y="1" z="9" spawntime="60" />
+		<monster name="Gloom Maw" x="4" y="1" z="9" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="2" y="4" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32932" centery="31425" centerz="9" radius="5">
+		<monster name="Norcferatu Heartless" x="5" y="-4" z="9" spawntime="60" />
+		<monster name="Varg" x="-5" y="-1" z="9" spawntime="60" />
+		<monster name="Gloom Maw" x="3" y="4" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32913" centery="31431" centerz="9" radius="5">
+		<monster name="Norcferatu Heartless" x="0" y="0" z="9" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="-4" y="3" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32866" centery="31432" centerz="9" radius="5">
+		<monster name="Gloom Maw" x="0" y="-4" z="9" spawntime="60" />
+		<monster name="Varg" x="-4" y="-3" z="9" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="2" y="-2" z="9" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="0" y="0" z="9" spawntime="60" />
+		<monster name="Varg" x="3" y="2" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32909" centery="31434" centerz="9" radius="5">
+		<monster name="Dworc Shadowstalker" x="-5" y="1" z="9" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="-5" y="4" z="9" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="-5" y="5" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32875" centery="31440" centerz="9" radius="5">
+		<monster name="Orclops Bloodbreaker" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32896" centery="31441" centerz="9" radius="5">
+		<monster name="Gloom Maw" x="0" y="0" z="9" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="3" y="2" z="9" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="3" y="3" z="9" spawntime="60" />
+		<monster name="Gloom Maw" x="4" y="3" z="9" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="5" y="4" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32902" centery="31442" centerz="9" radius="5">
+		<monster name="Norcferatu Heartless" x="5" y="-1" z="9" spawntime="60" />
+		<monster name="Gloom Maw" x="1" y="0" z="9" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="1" y="1" z="9" spawntime="60" />
+		<monster name="Gloom Maw" x="2" y="3" z="9" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="4" y="3" z="9" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="2" y="4" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32884" centery="31443" centerz="9" radius="5">
+		<monster name="Dworc Shadowstalker" x="0" y="-1" z="9" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="2" y="0" z="9" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="0" y="1" z="9" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="0" y="2" z="9" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="4" y="3" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32889" centery="31453" centerz="9" radius="5">
+		<monster name="Norcferatu Heartless" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32520" centery="31755" centerz="9" radius="5">
+		<monster name="Ink Splash" x="0" y="0" z="9" spawntime="60" />
+		<monster name="Ink Splash" x="1" y="3" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32527" centery="31770" centerz="9" radius="5">
+		<monster name="Vicious Ink Splash" x="0" y="0" z="9" spawntime="60" />
+		<monster name="Vicious Ink Splash" x="5" y="5" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32532" centery="31775" centerz="9" radius="5">
+		<monster name="Vicious Ink Splash" x="-3" y="2" z="9" spawntime="60" />
+		<monster name="Vicious Ink Splash" x="4" y="3" z="9" spawntime="60" />
+		<monster name="Inkwing" x="-4" y="4" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32529" centery="31777" centerz="9" radius="5">
+		<monster name="Vicious Ink Splash" x="-4" y="3" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="33329" centery="31829" centerz="9" radius="5">
+		<monster name="Dwarf Guard" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32619" centery="32513" centerz="9" radius="5">
+		<monster name="Assassin" x="0" y="0" z="9" spawntime="60" />
+		<monster name="Assassin" x="-1" y="2" z="9" spawntime="60" />
+		<monster name="Witch" x="-2" y="3" z="9" spawntime="60" />
+		<monster name="Assassin" x="-4" y="4" z="9" spawntime="60" />
+		<monster name="Assassin" x="-4" y="5" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32542" centery="32514" centerz="9" radius="5">
+		<monster name="Bramble Wyrmling" x="0" y="0" z="9" spawntime="60" />
+		<monster name="Bramble Wyrmling" x="-3" y="2" z="9" spawntime="60" />
+		<monster name="Bramble Wyrmling" x="-3" y="5" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32618" centery="32515" centerz="9" radius="5">
+		<monster name="Monk" x="-3" y="5" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32521" centery="32516" centerz="9" radius="5">
+		<monster name="Hawk Hopper" x="0" y="0" z="9" spawntime="60" />
+		<monster name="Bramble Wyrmling" x="3" y="0" z="9" spawntime="60" />
+		<monster name="Bramble Wyrmling" x="5" y="0" z="9" spawntime="60" />
+		<monster name="Bramble Wyrmling" x="4" y="2" z="9" spawntime="60" />
+		<monster name="Hawk Hopper" x="5" y="5" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32524" centery="32516" centerz="9" radius="5">
+		<monster name="Bramble Wyrmling" x="4" y="1" z="9" spawntime="60" />
+		<monster name="Hawk Hopper" x="4" y="2" z="9" spawntime="60" />
+		<monster name="Bramble Wyrmling" x="5" y="3" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32539" centery="32516" centerz="9" radius="5">
+		<monster name="Bramble Wyrmling" x="-1" y="4" z="9" spawntime="60" />
+		<monster name="Bramble Wyrmling" x="-1" y="5" z="9" spawntime="60" />
+		<monster name="Bramble Wyrmling" x="2" y="5" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32609" centery="32516" centerz="9" radius="5">
+		<monster name="Witch" x="0" y="0" z="9" spawntime="60" />
+		<monster name="Ghost" x="0" y="1" z="9" spawntime="60" />
+		<monster name="Ghost" x="2" y="2" z="9" spawntime="60" />
+		<monster name="Monk" x="3" y="3" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32528" centery="32517" centerz="9" radius="5">
+		<monster name="Bramble Wyrmling" x="4" y="5" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32609" centery="32517" centerz="9" radius="5">
+		<monster name="Assassin" x="4" y="5" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32615" centery="32517" centerz="9" radius="5">
+		<monster name="Assassin" x="2" y="5" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32529" centery="32519" centerz="9" radius="5">
+		<monster name="Bramble Wyrmling" x="5" y="4" z="9" spawntime="60" />
+		<monster name="Hawk Hopper" x="5" y="5" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32539" centery="32519" centerz="9" radius="5">
+		<monster name="Hawk Hopper" x="0" y="4" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32526" centery="32521" centerz="9" radius="5">
+		<monster name="Bramble Wyrmling" x="-2" y="4" z="9" spawntime="60" />
+		<monster name="Bramble Wyrmling" x="0" y="5" z="9" spawntime="60" />
+		<monster name="Bramble Wyrmling" x="2" y="5" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32538" centery="32521" centerz="9" radius="5">
+		<monster name="Hawk Hopper" x="-3" y="5" z="9" spawntime="60" />
+		<monster name="Hawk Hopper" x="2" y="5" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32532" centery="32522" centerz="9" radius="5">
+		<monster name="Hawk Hopper" x="0" y="4" z="9" spawntime="60" />
+		<monster name="Hawk Hopper" x="5" y="5" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32534" centery="32523" centerz="9" radius="5">
+		<monster name="Bramble Wyrmling" x="4" y="4" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32524" centery="32525" centerz="9" radius="5">
+		<monster name="Hawk Hopper" x="4" y="5" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32544" centery="32535" centerz="9" radius="5">
+		<monster name="Hawk Hopper" x="0" y="0" z="9" spawntime="60" />
+		<monster name="Bramble Wyrmling" x="0" y="3" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32538" centery="32536" centerz="9" radius="5">
+		<monster name="Hawk Hopper" x="0" y="0" z="9" spawntime="60" />
+		<monster name="Hawk Hopper" x="0" y="2" z="9" spawntime="60" />
+		<monster name="Bramble Wyrmling" x="-2" y="3" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32553" centery="32540" centerz="9" radius="5">
+		<monster name="Hawk Hopper" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32535" centery="32546" centerz="9" radius="5">
+		<monster name="Hawk Hopper" x="0" y="0" z="9" spawntime="60" />
+		<monster name="Bramble Wyrmling" x="1" y="0" z="9" spawntime="60" />
+		<monster name="Bramble Wyrmling" x="-3" y="4" z="9" spawntime="60" />
+		<monster name="Bramble Wyrmling" x="-2" y="4" z="9" spawntime="60" />
+		<monster name="Bramble Wyrmling" x="1" y="4" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32532" centery="32550" centerz="9" radius="5">
+		<monster name="Bramble Wyrmling" x="-3" y="2" z="9" spawntime="60" />
+		<monster name="Bramble Wyrmling" x="1" y="2" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32552" centery="32551" centerz="9" radius="5">
+		<monster name="Bramble Wyrmling" x="0" y="0" z="9" spawntime="60" />
+		<monster name="Hawk Hopper" x="2" y="1" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32550" centery="32559" centerz="9" radius="5">
+		<monster name="Hawk Hopper" x="0" y="0" z="9" spawntime="60" />
+		<monster name="Bramble Wyrmling" x="-4" y="2" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32528" centery="32560" centerz="9" radius="5">
+		<monster name="Bramble Wyrmling" x="0" y="0" z="9" spawntime="60" />
+		<monster name="Hawk Hopper" x="-4" y="5" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32539" centery="32561" centerz="9" radius="5">
+		<monster name="Hawk Hopper" x="0" y="0" z="9" spawntime="60" />
+		<monster name="Bramble Wyrmling" x="3" y="3" z="9" spawntime="60" />
+		<monster name="Hawk Hopper" x="5" y="3" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32546" centery="32561" centerz="9" radius="5">
+		<monster name="Hawk Hopper" x="5" y="4" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32542" centery="32564" centerz="9" radius="5">
+		<monster name="Hawk Hopper" x="0" y="5" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32524" centery="32565" centerz="9" radius="5">
+		<monster name="Hawk Hopper" x="-2" y="4" z="9" spawntime="60" />
+		<monster name="Hawk Hopper" x="1" y="4" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32522" centery="32569" centerz="9" radius="5">
+		<monster name="Hawk Hopper" x="-1" y="3" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32536" centery="32571" centerz="9" radius="5">
+		<monster name="Hawk Hopper" x="0" y="0" z="9" spawntime="60" />
+		<monster name="Hawk Hopper" x="3" y="5" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32542" centery="32575" centerz="9" radius="5">
+		<monster name="Hawk Hopper" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32556" centery="32575" centerz="9" radius="5">
+		<monster name="Hawk Hopper" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32524" centery="32579" centerz="9" radius="5">
+		<monster name="Bramble Wyrmling" x="0" y="0" z="9" spawntime="60" />
+		<monster name="Bramble Wyrmling" x="1" y="1" z="9" spawntime="60" />
+		<monster name="Hawk Hopper" x="-5" y="3" z="9" spawntime="60" />
+		<monster name="Hawk Hopper" x="2" y="3" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32546" centery="32583" centerz="9" radius="5">
+		<monster name="Bramble Wyrmling" x="0" y="0" z="9" spawntime="60" />
+		<monster name="Hawk Hopper" x="-1" y="2" z="9" spawntime="60" />
+		<monster name="Bramble Wyrmling" x="1" y="5" z="9" spawntime="60" />
+		<monster name="Bramble Wyrmling" x="3" y="5" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32554" centery="32585" centerz="9" radius="5">
+		<monster name="Hawk Hopper" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32547" centery="32588" centerz="9" radius="5">
+		<monster name="Bramble Wyrmling" x="1" y="5" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32555" centery="32598" centerz="9" radius="5">
+		<monster name="Hawk Hopper" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32546" centery="32599" centerz="9" radius="5">
+		<monster name="Bramble Wyrmling" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32554" centery="32604" centerz="9" radius="5">
+		<monster name="Hawk Hopper" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32547" centery="32608" centerz="9" radius="5">
+		<monster name="Hawk Hopper" x="0" y="0" z="9" spawntime="60" />
+		<monster name="Bramble Wyrmling" x="2" y="2" z="9" spawntime="60" />
+		<monster name="Hawk Hopper" x="-2" y="3" z="9" spawntime="60" />
+	</monster>
+	<monster centerx="32829" centery="31371" centerz="10" radius="5">
+		<monster name="Gloom Maw" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="-4" y="2" z="10" spawntime="60" />
+		<monster name="Gloom Maw" x="-4" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32919" centery="31371" centerz="10" radius="5">
+		<monster name="Dworc Shadowstalker" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="-2" y="1" z="10" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="-2" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32862" centery="31372" centerz="10" radius="5">
+		<monster name="Dworc Shadowstalker" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="1" y="1" z="10" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="-2" y="3" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32878" centery="31372" centerz="10" radius="5">
+		<monster name="Dworc Shadowstalker" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="5" y="3" z="10" spawntime="60" />
+		<monster name="Gloom Maw" x="4" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32917" centery="31372" centerz="10" radius="5">
+		<monster name="Dworc Shadowstalker" x="-5" y="4" z="10" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="0" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32825" centery="31373" centerz="10" radius="5">
+		<monster name="Orclops Bloodbreaker" x="-4" y="3" z="10" spawntime="60" />
+		<monster name="Gloom Maw" x="-3" y="4" z="10" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="-1" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32852" centery="31373" centerz="10" radius="5">
+		<monster name="Dworc Shadowstalker" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="2" y="2" z="10" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="0" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32854" centery="31375" centerz="10" radius="5">
+		<monster name="Dworc Shadowstalker" x="-1" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32822" centery="31377" centerz="10" radius="5">
+		<monster name="Dworc Shadowstalker" x="5" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32926" centery="31377" centerz="10" radius="5">
+		<monster name="Dworc Shadowstalker" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32832" centery="31380" centerz="10" radius="5">
+		<monster name="Orclops Bloodbreaker" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Gloom Maw" x="2" y="0" z="10" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="-4" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32853" centery="31380" centerz="10" radius="5">
+		<monster name="Orclops Bloodbreaker" x="2" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32906" centery="31382" centerz="10" radius="5">
+		<monster name="Norcferatu Heartless" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Gloom Maw" x="5" y="2" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32879" centery="31384" centerz="10" radius="5">
+		<monster name="Dworc Shadowstalker" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Gloom Maw" x="1" y="0" z="10" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="-5" y="1" z="10" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="0" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32911" centery="31384" centerz="10" radius="5">
+		<monster name="Dworc Shadowstalker" x="2" y="0" z="10" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="1" y="2" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32879" centery="31385" centerz="10" radius="5">
+		<monster name="Dworc Shadowstalker" x="2" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32912" centery="31386" centerz="10" radius="5">
+		<monster name="Orclops Bloodbreaker" x="-4" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32861" centery="31390" centerz="10" radius="5">
+		<monster name="Norcferatu Heartless" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="0" y="3" z="10" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="0" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32917" centery="31395" centerz="10" radius="5">
+		<monster name="Dworc Shadowstalker" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32909" centery="31399" centerz="10" radius="5">
+		<monster name="Gloom Maw" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="1" y="0" z="10" spawntime="60" />
+		<monster name="Varg" x="-1" y="3" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32910" centery="31399" centerz="10" radius="5">
+		<monster name="Gloom Maw" x="5" y="3" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32842" centery="31401" centerz="10" radius="5">
+		<monster name="Dworc Shadowstalker" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="3" y="2" z="10" spawntime="60" />
+		<monster name="Varg" x="2" y="4" z="10" spawntime="60" />
+		<monster name="Gloom Maw" x="2" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32866" centery="31401" centerz="10" radius="5">
+		<monster name="Norcferatu Nightweaver" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32908" centery="31402" centerz="10" radius="5">
+		<monster name="Gloom Maw" x="3" y="3" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32915" centery="31402" centerz="10" radius="5">
+		<monster name="Dworc Shadowstalker" x="5" y="2" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32845" centery="31403" centerz="10" radius="5">
+		<monster name="Gloom Maw" x="4" y="2" z="10" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="-5" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32844" centery="31405" centerz="10" radius="5">
+		<monster name="Gloom Maw" x="-1" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32911" centery="31405" centerz="10" radius="5">
+		<monster name="Dworc Shadowstalker" x="-2" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32843" centery="31410" centerz="10" radius="5">
+		<monster name="Orclops Bloodbreaker" x="2" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32888" centery="31411" centerz="10" radius="5">
+		<monster name="Gloom Maw" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Gloom Maw" x="3" y="2" z="10" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="1" y="5" z="10" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="3" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32881" centery="31413" centerz="10" radius="5">
+		<monster name="Gloom Maw" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Gloom Maw" x="5" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32891" centery="31413" centerz="10" radius="5">
+		<monster name="Norcferatu Heartless" x="-3" y="4" z="10" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="0" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32845" centery="31414" centerz="10" radius="5">
+		<monster name="Gloom Maw" x="0" y="2" z="10" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="2" y="2" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32845" centery="31416" centerz="10" radius="5">
+		<monster name="Varg" x="1" y="4" z="10" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="1" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32889" centery="31416" centerz="10" radius="5">
+		<monster name="Norcferatu Nightweaver" x="-5" y="3" z="10" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="-2" y="3" z="10" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="-3" y="4" z="10" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="2" y="4" z="10" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="3" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32888" centery="31417" centerz="10" radius="5">
+		<monster name="Dworc Shadowstalker" x="-5" y="4" z="10" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="-2" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32935" centery="31418" centerz="10" radius="5">
+		<monster name="Gloom Maw" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Gloom Maw" x="5" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32906" centery="31419" centerz="10" radius="5">
+		<monster name="Dworc Shadowstalker" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="-1" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32905" centery="31420" centerz="10" radius="5">
+		<monster name="Gloom Maw" x="5" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32846" centery="31421" centerz="10" radius="5">
+		<monster name="Gloom Maw" x="0" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32910" centery="31425" centerz="10" radius="5">
+		<monster name="Norcferatu Heartless" x="-2" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32846" centery="31426" centerz="10" radius="5">
+		<monster name="Gloom Maw" x="-4" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32908" centery="31426" centerz="10" radius="5">
+		<monster name="Gloom Maw" x="-1" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32907" centery="31431" centerz="10" radius="5">
+		<monster name="Orclops Bloodbreaker" x="3" y="2" z="10" spawntime="60" />
+		<monster name="Gloom Maw" x="3" y="4" z="10" spawntime="60" />
+		<monster name="Gloom Maw" x="4" y="4" z="10" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="5" y="4" z="10" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="-4" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32910" centery="31433" centerz="10" radius="5">
+		<monster name="Orclops Bloodbreaker" x="-1" y="4" z="10" spawntime="60" />
+		<monster name="Varg" x="4" y="4" z="10" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="-2" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32910" centery="31435" centerz="10" radius="5">
+		<monster name="Orclops Bloodbreaker" x="3" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32912" centery="31435" centerz="10" radius="5">
+		<monster name="Dworc Shadowstalker" x="5" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32845" centery="31436" centerz="10" radius="5">
+		<monster name="Norcferatu Heartless" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="1" y="1" z="10" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="5" y="1" z="10" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="5" y="2" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32909" centery="31437" centerz="10" radius="5">
+		<monster name="Gloom Maw" x="4" y="4" z="10" spawntime="60" />
+		<monster name="Gloom Maw" x="3" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32832" centery="31438" centerz="10" radius="5">
+		<monster name="Dworc Shadowstalker" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Gloom Maw" x="-1" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32850" centery="31438" centerz="10" radius="5">
+		<monster name="Gloom Maw" x="2" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32852" centery="31443" centerz="10" radius="5">
+		<monster name="Gloom Maw" x="-2" y="1" z="10" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="5" y="2" z="10" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="-2" y="3" z="10" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="-1" y="3" z="10" spawntime="60" />
+		<monster name="Gloom Maw" x="0" y="5" z="10" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="5" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32862" centery="31443" centerz="10" radius="5">
+		<monster name="Dworc Shadowstalker" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="-1" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32835" centery="31445" centerz="10" radius="5">
+		<monster name="Dworc Shadowstalker" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="-3" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32841" centery="31448" centerz="10" radius="5">
+		<monster name="Dworc Shadowstalker" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="2" y="3" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32857" centery="31448" centerz="10" radius="5">
+		<monster name="Norcferatu Heartless" x="2" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32859" centery="31452" centerz="10" radius="5">
+		<monster name="Orclops Bloodbreaker" x="-2" y="4" z="10" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="-1" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33370" centery="31794" centerz="10" radius="5">
+		<monster name="Cinder Wyrmling" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33363" centery="31795" centerz="10" radius="5">
+		<monster name="Shell Drake" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33356" centery="31796" centerz="10" radius="5">
+		<monster name="Cinder Wyrmling" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33431" centery="31805" centerz="10" radius="5">
+		<monster name="Cinder Wyrmling" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Cinder Wyrmling" x="-5" y="1" z="10" spawntime="60" />
+		<monster name="Cinder Wyrmling" x="5" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33354" centery="31806" centerz="10" radius="5">
+		<monster name="Shell Drake" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Shell Drake" x="-2" y="2" z="10" spawntime="60" />
+		<monster name="Shell Drake" x="3" y="3" z="10" spawntime="60" />
+		<monster name="Shell Drake" x="-5" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33383" centery="31806" centerz="10" radius="5">
+		<monster name="Shell Drake" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Cinder Wyrmling" x="3" y="0" z="10" spawntime="60" />
+		<monster name="Cinder Wyrmling" x="-1" y="2" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33426" centery="31806" centerz="10" radius="5">
+		<monster name="Cinder Wyrmling" x="-4" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33382" centery="31808" centerz="10" radius="5">
+		<monster name="Cinder Wyrmling" x="1" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33407" centery="31808" centerz="10" radius="5">
+		<monster name="Cinder Wyrmling" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Cinder Wyrmling" x="-1" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33357" centery="31809" centerz="10" radius="5">
+		<monster name="Shell Drake" x="-5" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33422" centery="31810" centerz="10" radius="5">
+		<monster name="Shell Drake" x="-4" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33383" centery="31813" centerz="10" radius="5">
+		<monster name="Shell Drake" x="-4" y="1" z="10" spawntime="60" />
+		<monster name="Shell Drake" x="0" y="2" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33406" centery="31813" centerz="10" radius="5">
+		<monster name="Shell Drake" x="-2" y="3" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33352" centery="31814" centerz="10" radius="5">
+		<monster name="Cinder Wyrmling" x="-2" y="3" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33395" centery="31814" centerz="10" radius="5">
+		<monster name="Cinder Wyrmling" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33366" centery="31815" centerz="10" radius="5">
+		<monster name="Cinder Wyrmling" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33404" centery="31816" centerz="10" radius="5">
+		<monster name="Shell Drake" x="-1" y="4" z="10" spawntime="60" />
+		<monster name="Cinder Wyrmling" x="3" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33350" centery="31817" centerz="10" radius="5">
+		<monster name="Shell Drake" x="4" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33445" centery="31817" centerz="10" radius="5">
+		<monster name="Cinder Wyrmling" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33439" centery="31821" centerz="10" radius="5">
+		<monster name="Cinder Wyrmling" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Shell Drake" x="0" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33298" centery="31822" centerz="10" radius="5">
+		<monster name="Cinder Wyrmling" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33379" centery="31824" centerz="10" radius="5">
+		<monster name="Cinder Wyrmling" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33432" centery="31824" centerz="10" radius="5">
+		<monster name="Shell Drake" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33305" centery="31827" centerz="10" radius="5">
+		<monster name="Cinder Wyrmling" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33422" centery="31827" centerz="10" radius="5">
+		<monster name="Cinder Wyrmling" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Shell Drake" x="1" y="5" z="10" spawntime="60" />
+		<monster name="Shell Drake" x="3" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33394" centery="31828" centerz="10" radius="5">
+		<monster name="Cinder Wyrmling" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Shell Drake" x="0" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33371" centery="31829" centerz="10" radius="5">
+		<monster name="Cinder Wyrmling" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Cinder Wyrmling" x="-2" y="3" z="10" spawntime="60" />
+		<monster name="Shell Drake" x="-5" y="4" z="10" spawntime="60" />
+		<monster name="Shell Drake" x="-4" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33334" centery="31830" centerz="10" radius="5">
+		<monster name="Shell Drake" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33317" centery="31831" centerz="10" radius="5">
+		<monster name="Cinder Wyrmling" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Cinder Wyrmling" x="4" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33328" centery="31831" centerz="10" radius="5">
+		<monster name="Cinder Wyrmling" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Shell Drake" x="0" y="4" z="10" spawntime="60" />
+		<monster name="Cinder Wyrmling" x="3" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33341" centery="31832" centerz="10" radius="5">
+		<monster name="Shell Drake" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33394" centery="31832" centerz="10" radius="5">
+		<monster name="Cinder Wyrmling" x="0" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33423" centery="31832" centerz="10" radius="5">
+		<monster name="Cinder Wyrmling" x="3" y="2" z="10" spawntime="60" />
+		<monster name="Cinder Wyrmling" x="-5" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33360" centery="31833" centerz="10" radius="5">
+		<monster name="Cinder Wyrmling" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33351" centery="31834" centerz="10" radius="5">
+		<monster name="Cinder Wyrmling" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33417" centery="31835" centerz="10" radius="5">
+		<monster name="Shell Drake" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33441" centery="31835" centerz="10" radius="5">
+		<monster name="Cinder Wyrmling" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33394" centery="31836" centerz="10" radius="5">
+		<monster name="Cinder Wyrmling" x="0" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33380" centery="31838" centerz="10" radius="5">
+		<monster name="Shell Drake" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Cinder Wyrmling" x="4" y="3" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33394" centery="31840" centerz="10" radius="5">
+		<monster name="Cinder Wyrmling" x="-4" y="3" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33384" centery="31841" centerz="10" radius="5">
+		<monster name="Cinder Wyrmling" x="4" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33365" centery="31842" centerz="10" radius="5">
+		<monster name="Cinder Wyrmling" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Cinder Wyrmling" x="3" y="3" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33368" centery="31845" centerz="10" radius="5">
+		<monster name="Cinder Wyrmling" x="4" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33400" centery="31845" centerz="10" radius="5">
+		<monster name="Shell Drake" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Shell Drake" x="-3" y="1" z="10" spawntime="60" />
+		<monster name="Cinder Wyrmling" x="-2" y="1" z="10" spawntime="60" />
+		<monster name="Cinder Wyrmling" x="4" y="4" z="10" spawntime="60" />
+		<monster name="Shell Drake" x="3" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33433" centery="31846" centerz="10" radius="5">
+		<monster name="Shell Drake" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Shell Drake" x="1" y="0" z="10" spawntime="60" />
+		<monster name="Cinder Wyrmling" x="0" y="2" z="10" spawntime="60" />
+		<monster name="Shell Drake" x="2" y="2" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33433" centery="31848" centerz="10" radius="5">
+		<monster name="Shell Drake" x="-1" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33382" centery="31850" centerz="10" radius="5">
+		<monster name="Cinder Wyrmling" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Shell Drake" x="2" y="2" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33424" centery="31852" centerz="10" radius="5">
+		<monster name="Shell Drake" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Cinder Wyrmling" x="1" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33432" centery="31852" centerz="10" radius="5">
+		<monster name="Cinder Wyrmling" x="5" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33365" centery="31854" centerz="10" radius="5">
+		<monster name="Cinder Wyrmling" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33410" centery="31854" centerz="10" radius="5">
+		<monster name="Cinder Wyrmling" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33385" centery="31858" centerz="10" radius="5">
+		<monster name="Shell Drake" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Shell Drake" x="2" y="2" z="10" spawntime="60" />
+		<monster name="Cinder Wyrmling" x="0" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33393" centery="31859" centerz="10" radius="5">
+		<monster name="Shell Drake" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Cinder Wyrmling" x="3" y="2" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33387" centery="31860" centerz="10" radius="5">
+		<monster name="Shell Drake" x="-4" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33396" centery="31861" centerz="10" radius="5">
+		<monster name="Shell Drake" x="4" y="2" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33400" centery="31863" centerz="10" radius="5">
+		<monster name="Cinder Wyrmling" x="5" y="2" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33416" centery="31863" centerz="10" radius="5">
+		<monster name="Cinder Wyrmling" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Cinder Wyrmling" x="3" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33419" centery="31864" centerz="10" radius="5">
+		<monster name="Shell Drake" x="-4" y="5" z="10" spawntime="60" />
+		<monster name="Shell Drake" x="2" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33439" centery="31864" centerz="10" radius="5">
+		<monster name="Cinder Wyrmling" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33415" centery="31869" centerz="10" radius="5">
+		<monster name="Cinder Wyrmling" x="2" y="2" z="10" spawntime="60" />
+		<monster name="Cinder Wyrmling" x="5" y="2" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33421" centery="31869" centerz="10" radius="5">
+		<monster name="Cinder Wyrmling" x="0" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="33433" centery="31870" centerz="10" radius="5">
+		<monster name="Cinder Wyrmling" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32589" centery="32510" centerz="10" radius="5">
+		<monster name="Lion Hydra" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="2" y="1" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="-5" y="2" z="10" spawntime="60" />
+		<monster name="Lion Hydra" x="-3" y="2" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="-2" y="2" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="3" y="2" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="-3" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32584" centery="32512" centerz="10" radius="5">
+		<monster name="Bluebeak" x="1" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32611" centery="32520" centerz="10" radius="5">
+		<monster name="Lion Hydra" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="-2" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32592" centery="32521" centerz="10" radius="5">
+		<monster name="Lion Hydra" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Lion Hydra" x="5" y="3" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32586" centery="32524" centerz="10" radius="5">
+		<monster name="Lion Hydra" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32563" centery="32534" centerz="10" radius="5">
+		<monster name="Lion Hydra" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Lion Hydra" x="1" y="1" z="10" spawntime="60" />
+		<monster name="Lion Hydra" x="2" y="2" z="10" spawntime="60" />
+		<monster name="Lion Hydra" x="3" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32583" centery="32536" centerz="10" radius="5">
+		<monster name="Lion Hydra" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="4" y="2" z="10" spawntime="60" />
+		<monster name="Lion Hydra" x="0" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32576" centery="32537" centerz="10" radius="5">
+		<monster name="Dog" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32610" centery="32537" centerz="10" radius="5">
+		<monster name="Bluebeak" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Lion Hydra" x="5" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32532" centery="32539" centerz="10" radius="5">
+		<monster name="Lion Hydra" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="-4" y="1" z="10" spawntime="60" />
+		<monster name="Lion Hydra" x="-4" y="3" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="0" y="3" z="10" spawntime="60" />
+		<monster name="Lion Hydra" x="3" y="3" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="4" y="3" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="3" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32528" centery="32540" centerz="10" radius="5">
+		<monster name="Lion Hydra" x="-4" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32583" centery="32540" centerz="10" radius="5">
+		<monster name="Bluebeak" x="-2" y="4" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="1" y="4" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="-3" y="5" z="10" spawntime="60" />
+		<monster name="Lion Hydra" x="1" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32615" centery="32541" centerz="10" radius="5">
+		<monster name="Bluebeak" x="-2" y="2" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32528" centery="32542" centerz="10" radius="5">
+		<monster name="Bluebeak" x="-5" y="4" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="-4" y="4" z="10" spawntime="60" />
+		<monster name="Lion Hydra" x="-2" y="4" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="-3" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32536" centery="32542" centerz="10" radius="5">
+		<monster name="Lion Hydra" x="5" y="2" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32613" centery="32543" centerz="10" radius="5">
+		<monster name="Lion Hydra" x="0" y="4" z="10" spawntime="60" />
+		<monster name="Lion Hydra" x="2" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32524" centery="32544" centerz="10" radius="5">
+		<monster name="Lion Hydra" x="-2" y="3" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="-4" y="4" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="-5" y="5" z="10" spawntime="60" />
+		<monster name="Lion Hydra" x="-3" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32541" centery="32544" centerz="10" radius="5">
+		<monster name="Lion Hydra" x="3" y="4" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="5" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32581" centery="32544" centerz="10" radius="5">
+		<monster name="Lion Hydra" x="-5" y="2" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="-5" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32598" centery="32544" centerz="10" radius="5">
+		<monster name="Lion Hydra" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Lion Hydra" x="1" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32599" centery="32545" centerz="10" radius="5">
+		<monster name="Lion Hydra" x="1" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32566" centery="32546" centerz="10" radius="5">
+		<monster name="Lion Hydra" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Lion Hydra" x="4" y="2" z="10" spawntime="60" />
+		<monster name="Lion Hydra" x="1" y="4" z="10" spawntime="60" />
+		<monster name="Lion Hydra" x="-3" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32576" centery="32546" centerz="10" radius="5">
+		<monster name="Lion Hydra" x="-4" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32547" centery="32547" centerz="10" radius="5">
+		<monster name="Lion Hydra" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Lion Hydra" x="1" y="0" z="10" spawntime="60" />
+		<monster name="Lion Hydra" x="3" y="2" z="10" spawntime="60" />
+		<monster name="Lion Hydra" x="-2" y="3" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32613" centery="32547" centerz="10" radius="5">
+		<monster name="Bluebeak" x="1" y="2" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32570" centery="32548" centerz="10" radius="5">
+		<monster name="Bluebeak" x="4" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32550" centery="32549" centerz="10" radius="5">
+		<monster name="Lion Hydra" x="4" y="2" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32567" centery="32550" centerz="10" radius="5">
+		<monster name="Bluebeak" x="-4" y="2" z="10" spawntime="60" />
+		<monster name="Lion Hydra" x="-4" y="3" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="-1" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32591" centery="32550" centerz="10" radius="5">
+		<monster name="Bluebeak" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="1" y="0" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="2" y="2" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32533" centery="32551" centerz="10" radius="5">
+		<monster name="Bluebeak" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32554" centery="32551" centerz="10" radius="5">
+		<monster name="Bluebeak" x="2" y="2" z="10" spawntime="60" />
+		<monster name="Lion Hydra" x="2" y="3" z="10" spawntime="60" />
+		<monster name="Lion Hydra" x="1" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32563" centery="32551" centerz="10" radius="5">
+		<monster name="Lion Hydra" x="-2" y="2" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="-3" y="3" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="-2" y="3" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32563" centery="32552" centerz="10" radius="5">
+		<monster name="Lion Hydra" x="3" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32574" centery="32553" centerz="10" radius="5">
+		<monster name="Lion Hydra" x="3" y="2" z="10" spawntime="60" />
+		<monster name="Lion Hydra" x="-4" y="4" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="-3" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32521" centery="32555" centerz="10" radius="5">
+		<monster name="Bluebeak" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="2" y="0" z="10" spawntime="60" />
+		<monster name="Lion Hydra" x="0" y="1" z="10" spawntime="60" />
+		<monster name="Lion Hydra" x="0" y="3" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="3" y="3" z="10" spawntime="60" />
+		<monster name="Lion Hydra" x="2" y="4" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="4" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32555" centery="32556" centerz="10" radius="5">
+		<monster name="Bluebeak" x="5" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32537" centery="32557" centerz="10" radius="5">
+		<monster name="Lion Hydra" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="1" y="2" z="10" spawntime="60" />
+		<monster name="Lion Hydra" x="1" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32521" centery="32558" centerz="10" radius="5">
+		<monster name="Bluebeak" x="1" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32612" centery="32558" centerz="10" radius="5">
+		<monster name="Lion Hydra" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Lion Hydra" x="4" y="3" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="4" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32525" centery="32560" centerz="10" radius="5">
+		<monster name="Lion Hydra" x="3" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32560" centery="32560" centerz="10" radius="5">
+		<monster name="Bluebeak" x="1" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32538" centery="32561" centerz="10" radius="5">
+		<monster name="Lion Hydra" x="-1" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32522" centery="32562" centerz="10" radius="5">
+		<monster name="Lion Hydra" x="2" y="5" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="5" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32593" centery="32562" centerz="10" radius="5">
+		<monster name="Lion Hydra" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32606" centery="32562" centerz="10" radius="5">
+		<monster name="Lion Hydra" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="3" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32532" centery="32563" centerz="10" radius="5">
+		<monster name="Lion Hydra" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="0" y="1" z="10" spawntime="60" />
+		<monster name="Lion Hydra" x="2" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32532" centery="32564" centerz="10" radius="5">
+		<monster name="Lion Hydra" x="-5" y="5" z="10" spawntime="60" />
+		<monster name="Lion Hydra" x="-1" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32528" centery="32565" centerz="10" radius="5">
+		<monster name="Lion Hydra" x="-1" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32561" centery="32565" centerz="10" radius="5">
+		<monster name="Lion Hydra" x="-1" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32524" centery="32567" centerz="10" radius="5">
+		<monster name="Bluebeak" x="2" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32527" centery="32567" centerz="10" radius="5">
+		<monster name="Bluebeak" x="4" y="4" z="10" spawntime="60" />
+		<monster name="Lion Hydra" x="5" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32568" centery="32567" centerz="10" radius="5">
+		<monster name="Bluebeak" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="1" y="0" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="2" y="1" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="-4" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32587" centery="32567" centerz="10" radius="5">
+		<monster name="Bluebeak" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Lion Hydra" x="0" y="1" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="-2" y="3" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="5" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32534" centery="32568" centerz="10" radius="5">
+		<monster name="Lion Hydra" x="0" y="3" z="10" spawntime="60" />
+		<monster name="Lion Hydra" x="0" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32549" centery="32568" centerz="10" radius="5">
+		<monster name="Bluebeak" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="-1" y="1" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32597" centery="32568" centerz="10" radius="5">
+		<monster name="Lion Hydra" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Lion Hydra" x="2" y="2" z="10" spawntime="60" />
+		<monster name="Lion Hydra" x="4" y="2" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="1" y="3" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32548" centery="32569" centerz="10" radius="5">
+		<monster name="Bluebeak" x="2" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32560" centery="32569" centerz="10" radius="5">
+		<monster name="Bluebeak" x="-2" y="2" z="10" spawntime="60" />
+		<monster name="Lion Hydra" x="1" y="3" z="10" spawntime="60" />
+		<monster name="Lion Hydra" x="3" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32601" centery="32570" centerz="10" radius="5">
+		<monster name="Lion Hydra" x="4" y="2" z="10" spawntime="60" />
+		<monster name="Lion Hydra" x="5" y="2" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32531" centery="32571" centerz="10" radius="5">
+		<monster name="Lion Hydra" x="4" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32598" centery="32571" centerz="10" radius="5">
+		<monster name="Lion Hydra" x="0" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32534" centery="32572" centerz="10" radius="5">
+		<monster name="Lion Hydra" x="-1" y="5" z="10" spawntime="60" />
+		<monster name="Lion Hydra" x="0" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32561" centery="32572" centerz="10" radius="5">
+		<monster name="Bluebeak" x="-1" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32605" centery="32572" centerz="10" radius="5">
+		<monster name="Bluebeak" x="1" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32618" centery="32572" centerz="10" radius="5">
+		<monster name="Bluebeak" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="-2" y="3" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32550" centery="32574" centerz="10" radius="5">
+		<monster name="Bluebeak" x="-1" y="2" z="10" spawntime="60" />
+		<monster name="Lion Hydra" x="-2" y="3" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="2" y="3" z="10" spawntime="60" />
+		<monster name="Lion Hydra" x="-2" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32535" centery="32575" centerz="10" radius="5">
+		<monster name="Bluebeak" x="3" y="4" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="1" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32616" centery="32575" centerz="10" radius="5">
+		<monster name="Lion Hydra" x="-2" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32606" centery="32576" centerz="10" radius="5">
+		<monster name="Bluebeak" x="0" y="2" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32524" centery="32577" centerz="10" radius="5">
+		<monster name="Lion Hydra" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="3" y="0" z="10" spawntime="60" />
+		<monster name="Lion Hydra" x="1" y="2" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="2" y="3" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32538" centery="32579" centerz="10" radius="5">
+		<monster name="Lion Hydra" x="2" y="3" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="4" y="3" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="0" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32614" centery="32579" centerz="10" radius="5">
+		<monster name="Lion Hydra" x="0" y="2" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32538" centery="32583" centerz="10" radius="5">
+		<monster name="Bluebeak" x="1" y="5" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32539" centery="32588" centerz="10" radius="5">
+		<monster name="Bluebeak" x="-3" y="2" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="-1" y="4" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32548" centery="32590" centerz="10" radius="5">
+		<monster name="Lion Hydra" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32537" centery="32598" centerz="10" radius="5">
+		<monster name="Lion Hydra" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32549" centery="32598" centerz="10" radius="5">
+		<monster name="Lion Hydra" x="0" y="0" z="10" spawntime="60" />
+		<monster name="Lion Hydra" x="1" y="2" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="-3" y="3" z="10" spawntime="60" />
+		<monster name="Bluebeak" x="5" y="3" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32547" centery="32607" centerz="10" radius="5">
+		<monster name="Bluebeak" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32559" centery="32635" centerz="10" radius="5">
+		<monster name="Bandit" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32554" centery="32642" centerz="10" radius="5">
+		<monster name="Wolf" x="0" y="0" z="10" spawntime="60" />
+	</monster>
+	<monster centerx="32837" centery="31380" centerz="11" radius="5">
+		<monster name="Gloom Maw" x="0" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32895" centery="31384" centerz="11" radius="5">
+		<monster name="Dworc Shadowstalker" x="0" y="0" z="11" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="0" y="1" z="11" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="4" y="4" z="11" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="-5" y="5" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32903" centery="31384" centerz="11" radius="5">
+		<monster name="Gloom Maw" x="0" y="0" z="11" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="1" y="5" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32830" centery="31385" centerz="11" radius="5">
+		<monster name="Dworc Shadowstalker" x="0" y="0" z="11" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="2" y="1" z="11" spawntime="60" />
+		<monster name="Gloom Maw" x="-1" y="5" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32832" centery="31386" centerz="11" radius="5">
+		<monster name="Dworc Shadowstalker" x="4" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32836" centery="31387" centerz="11" radius="5">
+		<monster name="Orclops Bloodbreaker" x="5" y="2" z="11" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="-2" y="5" z="11" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="-1" y="5" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32871" centery="31387" centerz="11" radius="5">
+		<monster name="Orclops Bloodbreaker" x="0" y="0" z="11" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="3" y="3" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32821" centery="31388" centerz="11" radius="5">
+		<monster name="Orclops Bloodbreaker" x="0" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32890" centery="31389" centerz="11" radius="5">
+		<monster name="Dworc Shadowstalker" x="-4" y="2" z="11" spawntime="60" />
+		<monster name="Gloom Maw" x="-5" y="3" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32874" centery="31390" centerz="11" radius="5">
+		<monster name="Orclops Bloodbreaker" x="3" y="1" z="11" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="5" y="3" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32877" centery="31391" centerz="11" radius="5">
+		<monster name="Orclops Bloodbreaker" x="3" y="4" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32886" centery="31391" centerz="11" radius="5">
+		<monster name="Dworc Shadowstalker" x="2" y="4" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32885" centery="31392" centerz="11" radius="5">
+		<monster name="Norcferatu Nightweaver" x="3" y="5" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32879" centery="31393" centerz="11" radius="5">
+		<monster name="Norcferatu Heartless" x="0" y="4" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32914" centery="31395" centerz="11" radius="5">
+		<monster name="Orclops Bloodbreaker" x="0" y="0" z="11" spawntime="60" />
+		<monster name="Varg" x="-4" y="1" z="11" spawntime="60" />
+		<monster name="Varg" x="0" y="3" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32917" centery="31404" centerz="11" radius="5">
+		<monster name="Gloom Maw" x="0" y="0" z="11" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="0" y="1" z="11" spawntime="60" />
+		<monster name="Gloom Maw" x="-2" y="4" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32855" centery="31405" centerz="11" radius="5">
+		<monster name="Orclops Bloodbreaker" x="0" y="0" z="11" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="3" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32923" centery="31406" centerz="11" radius="5">
+		<monster name="Norcferatu Nightweaver" x="0" y="0" z="11" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="0" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32835" centery="31408" centerz="11" radius="5">
+		<monster name="Gloom Maw" x="0" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32859" centery="31411" centerz="11" radius="5">
+		<monster name="Dworc Shadowstalker" x="0" y="0" z="11" spawntime="60" />
+		<monster name="Gloom Maw" x="-2" y="2" z="11" spawntime="60" />
+		<monster name="Gloom Maw" x="0" y="2" z="11" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="-2" y="3" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32831" centery="31417" centerz="11" radius="5">
+		<monster name="Gloom Maw" x="0" y="0" z="11" spawntime="60" />
+		<monster name="Gloom Maw" x="2" y="1" z="11" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="1" y="5" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32833" centery="31418" centerz="11" radius="5">
+		<monster name="Dworc Shadowstalker" x="4" y="4" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32865" centery="31418" centerz="11" radius="5">
+		<monster name="Orclops Bloodbreaker" x="0" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32899" centery="31420" centerz="11" radius="5">
+		<monster name="Dworc Shadowstalker" x="0" y="0" z="11" spawntime="60" />
+		<monster name="Norcferatu Heartless" x="-4" y="1" z="11" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="2" y="2" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32873" centery="31421" centerz="11" radius="5">
+		<monster name="Dworc Shadowstalker" x="0" y="0" z="11" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="-1" y="3" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32895" centery="31421" centerz="11" radius="5">
+		<monster name="Orclops Bloodbreaker" x="-2" y="2" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32832" centery="31422" centerz="11" radius="5">
+		<monster name="Norcferatu Heartless" x="-5" y="1" z="11" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="-5" y="3" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32837" centery="31422" centerz="11" radius="5">
+		<monster name="Norcferatu Nightweaver" x="2" y="2" z="11" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="4" y="4" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32901" centery="31422" centerz="11" radius="5">
+		<monster name="Orclops Bloodbreaker" x="3" y="5" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32889" centery="31423" centerz="11" radius="5">
+		<monster name="Dworc Shadowstalker" x="0" y="0" z="11" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="0" y="1" z="11" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="-5" y="2" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32839" centery="31424" centerz="11" radius="5">
+		<monster name="Orclops Bloodbreaker" x="0" y="4" z="11" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="4" y="4" z="11" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="1" y="5" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32872" centery="31424" centerz="11" radius="5">
+		<monster name="Dworc Shadowstalker" x="-1" y="4" z="11" spawntime="60" />
+		<monster name="Gloom Maw" x="1" y="5" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32884" centery="31425" centerz="11" radius="5">
+		<monster name="Norcferatu Nightweaver" x="2" y="5" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32841" centery="31426" centerz="11" radius="5">
+		<monster name="Gloom Maw" x="-2" y="5" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32904" centery="31427" centerz="11" radius="5">
+		<monster name="Gloom Maw" x="-1" y="2" z="11" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="-1" y="4" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32843" centery="31428" centerz="11" radius="5">
+		<monster name="Dworc Shadowstalker" x="4" y="0" z="11" spawntime="60" />
+		<monster name="Gloom Maw" x="4" y="4" z="11" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="4" y="5" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32847" centery="31428" centerz="11" radius="5">
+		<monster name="Orclops Bloodbreaker" x="2" y="4" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32903" centery="31429" centerz="11" radius="5">
+		<monster name="Orclops Bloodbreaker" x="5" y="5" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32886" centery="31430" centerz="11" radius="5">
+		<monster name="Gloom Maw" x="-5" y="4" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32830" centery="31433" centerz="11" radius="5">
+		<monster name="Dworc Shadowstalker" x="0" y="0" z="11" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="-1" y="1" z="11" spawntime="60" />
+		<monster name="Norcferatu Nightweaver" x="-5" y="3" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32881" centery="31434" centerz="11" radius="5">
+		<monster name="Gloom Maw" x="-4" y="5" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32908" centery="31434" centerz="11" radius="5">
+		<monster name="Orclops Bloodbreaker" x="3" y="1" z="11" spawntime="60" />
+		<monster name="Orclops Bloodbreaker" x="-1" y="3" z="11" spawntime="60" />
+		<monster name="Dworc Shadowstalker" x="1" y="4" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32911" centery="31435" centerz="11" radius="5">
+		<monster name="Varg" x="3" y="3" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32849" centery="31439" centerz="11" radius="5">
+		<monster name="Norcferatu Nightweaver" x="0" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32912" centery="31445" centerz="11" radius="5">
+		<monster name="Gloom Maw" x="0" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32581" centery="32508" centerz="11" radius="5">
+		<monster name="Crusader" x="0" y="0" z="11" spawntime="60" />
+		<monster name="Headwalker" x="5" y="3" z="11" spawntime="60" />
+		<monster name="Crusader" x="-2" y="4" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32590" centery="32508" centerz="11" radius="5">
+		<monster name="Headwalker" x="0" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32586" centery="32511" centerz="11" radius="5">
+		<monster name="Crusader" x="3" y="4" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32624" centery="32512" centerz="11" radius="5">
+		<monster name="Headwalker" x="0" y="0" z="11" spawntime="60" />
+		<monster name="Headwalker" x="-4" y="2" z="11" spawntime="60" />
+		<monster name="Crusader" x="-2" y="2" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32618" centery="32513" centerz="11" radius="5">
+		<monster name="Headwalker" x="0" y="0" z="11" spawntime="60" />
+		<monster name="Headwalker" x="-3" y="5" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32595" centery="32514" centerz="11" radius="5">
+		<monster name="Headwalker" x="0" y="0" z="11" spawntime="60" />
+		<monster name="Crusader" x="4" y="3" z="11" spawntime="60" />
+		<monster name="Headwalker" x="3" y="5" z="11" spawntime="60" />
+		<monster name="Headwalker" x="5" y="5" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32620" centery="32514" centerz="11" radius="5">
+		<monster name="Headwalker" x="2" y="5" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32615" centery="32518" centerz="11" radius="5">
+		<monster name="Headwalker" x="5" y="3" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32578" centery="32519" centerz="11" radius="5">
+		<monster name="Headwalker" x="0" y="0" z="11" spawntime="60" />
+		<monster name="Crusader" x="3" y="1" z="11" spawntime="60" />
+		<monster name="Crusader" x="3" y="3" z="11" spawntime="60" />
+		<monster name="Headwalker" x="5" y="5" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32622" centery="32519" centerz="11" radius="5">
+		<monster name="Crusader" x="4" y="5" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32567" centery="32521" centerz="11" radius="5">
+		<monster name="Crusader" x="0" y="0" z="11" spawntime="60" />
+		<monster name="Crusader" x="0" y="3" z="11" spawntime="60" />
+		<monster name="Headwalker" x="3" y="3" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32581" centery="32522" centerz="11" radius="5">
+		<monster name="Crusader" x="4" y="4" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32634" centery="32522" centerz="11" radius="5">
+		<monster name="Crusader" x="0" y="0" z="11" spawntime="60" />
+		<monster name="Crusader" x="5" y="3" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32643" centery="32523" centerz="11" radius="5">
+		<monster name="Crusader" x="0" y="0" z="11" spawntime="60" />
+		<monster name="Crusader" x="1" y="2" z="11" spawntime="60" />
+		<monster name="Crusader" x="3" y="3" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32567" centery="32524" centerz="11" radius="5">
+		<monster name="Headwalker" x="-1" y="3" z="11" spawntime="60" />
+		<monster name="Headwalker" x="5" y="5" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32570" centery="32524" centerz="11" radius="5">
+		<monster name="Crusader" x="3" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32626" centery="32524" centerz="11" radius="5">
+		<monster name="Headwalker" x="-4" y="4" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32639" centery="32525" centerz="11" radius="5">
+		<monster name="Headwalker" x="-2" y="3" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32585" centery="32526" centerz="11" radius="5">
+		<monster name="Crusader" x="4" y="2" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32622" centery="32528" centerz="11" radius="5">
+		<monster name="Headwalker" x="-1" y="2" z="11" spawntime="60" />
+		<monster name="Crusader" x="0" y="2" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32621" centery="32530" centerz="11" radius="5">
+		<monster name="Headwalker" x="0" y="4" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32614" centery="32533" centerz="11" radius="5">
+		<monster name="Headwalker" x="0" y="0" z="11" spawntime="60" />
+		<monster name="Headwalker" x="-4" y="2" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32621" centery="32534" centerz="11" radius="5">
+		<monster name="Headwalker" x="-1" y="4" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32629" centery="32534" centerz="11" radius="5">
+		<monster name="Headwalker" x="0" y="0" z="11" spawntime="60" />
+		<monster name="Headwalker" x="5" y="5" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32637" centery="32534" centerz="11" radius="5">
+		<monster name="Headwalker" x="0" y="0" z="11" spawntime="60" />
+		<monster name="Headwalker" x="0" y="1" z="11" spawntime="60" />
+		<monster name="Crusader" x="-1" y="4" z="11" spawntime="60" />
+		<monster name="Headwalker" x="4" y="4" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32584" centery="32535" centerz="11" radius="5">
+		<monster name="Crusader" x="0" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32620" centery="32538" centerz="11" radius="5">
+		<monster name="Crusader" x="-4" y="2" z="11" spawntime="60" />
+		<monster name="Crusader" x="1" y="2" z="11" spawntime="60" />
+		<monster name="Headwalker" x="2" y="3" z="11" spawntime="60" />
+		<monster name="Crusader" x="3" y="4" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32636" centery="32538" centerz="11" radius="5">
+		<monster name="Crusader" x="2" y="4" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32634" centery="32539" centerz="11" radius="5">
+		<monster name="Headwalker" x="-5" y="2" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32616" centery="32540" centerz="11" radius="5">
+		<monster name="Crusader" x="-4" y="1" z="11" spawntime="60" />
+		<monster name="Crusader" x="-3" y="3" z="11" spawntime="60" />
+		<monster name="Headwalker" x="4" y="4" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32670" centery="32540" centerz="11" radius="3">
+		<monster name="Crusader Guardian" x="1" y="0" z="11" spawntime="60" />
+		<monster name="Crusader Guardian" x="1" y="1" z="11" spawntime="60" />
+		<monster name="Crusader Guardian" x="3" y="2" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32622" centery="32541" centerz="11" radius="5">
+		<monster name="Crusader" x="-2" y="5" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32602" centery="32542" centerz="11" radius="5">
+		<monster name="Headwalker" x="0" y="0" z="11" spawntime="60" />
+		<monster name="Crusader" x="-5" y="3" z="11" spawntime="60" />
+		<monster name="Headwalker" x="-2" y="5" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32582" centery="32544" centerz="11" radius="5">
+		<monster name="Crusader" x="0" y="0" z="11" spawntime="60" />
+		<monster name="Crusader" x="-1" y="1" z="11" spawntime="60" />
+		<monster name="Crusader" x="3" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32585" centery="32545" centerz="11" radius="5">
+		<monster name="Crusader" x="3" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32597" centery="32545" centerz="11" radius="5">
+		<monster name="Crusader" x="-2" y="1" z="11" spawntime="60" />
+		<monster name="Headwalker" x="0" y="3" z="11" spawntime="60" />
+		<monster name="Crusader" x="1" y="3" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32600" centery="32547" centerz="11" radius="5">
+		<monster name="Crusader" x="3" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32628" centery="32548" centerz="11" radius="5">
+		<monster name="Headwalker" x="0" y="0" z="11" spawntime="60" />
+		<monster name="Crusader" x="0" y="4" z="11" spawntime="60" />
+		<monster name="Headwalker" x="3" y="4" z="11" spawntime="60" />
+		<monster name="Headwalker" x="1" y="5" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32670" centery="32548" centerz="11" radius="4">
+		<monster name="Crusader Guardian" x="1" y="-2" z="11" spawntime="60" />
+		<monster name="Crusader Guardian" x="1" y="-1" z="11" spawntime="60" />
+		<monster name="Crusader Guardian" x="1" y="0" z="11" spawntime="60" />
+		<monster name="Crusader Guardian" x="4" y="0" z="11" spawntime="60" />
+		<monster name="Crusader Guardian" x="4" y="2" z="11" spawntime="60" />
+		<monster name="Crusader Guardian" x="-2" y="4" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32617" centery="32552" centerz="11" radius="5">
+		<monster name="Crusader" x="0" y="0" z="11" spawntime="60" />
+		<monster name="Headwalker" x="0" y="1" z="11" spawntime="60" />
+		<monster name="Crusader" x="-2" y="3" z="11" spawntime="60" />
+		<monster name="Crusader" x="2" y="3" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32628" centery="32552" centerz="11" radius="5">
+		<monster name="Crusader" x="-1" y="4" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32631" centery="32552" centerz="11" radius="5">
+		<monster name="Crusader" x="5" y="1" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32617" centery="32553" centerz="11" radius="5">
+		<monster name="Headwalker" x="3" y="5" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32619" centery="32555" centerz="11" radius="5">
+		<monster name="Headwalker" x="3" y="5" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32627" centery="32556" centerz="11" radius="5">
+		<monster name="Headwalker" x="0" y="5" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32622" centery="32560" centerz="11" radius="5">
+		<monster name="Headwalker" x="5" y="3" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32627" centery="32561" centerz="11" radius="5">
+		<monster name="Headwalker" x="5" y="4" z="11" spawntime="60" />
+		<monster name="Headwalker" x="3" y="5" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32633" centery="32561" centerz="11" radius="5">
+		<monster name="Headwalker" x="0" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32627" centery="32563" centerz="11" radius="5">
+		<monster name="Crusader" x="-1" y="4" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32632" centery="32565" centerz="11" radius="5">
+		<monster name="Headwalker" x="0" y="4" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32632" centery="32569" centerz="11" radius="5">
+		<monster name="Crusader" x="3" y="5" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32597" centery="32570" centerz="11" radius="5">
+		<monster name="Crusader" x="0" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32615" centery="32571" centerz="11" radius="5">
+		<monster name="Headwalker" x="0" y="0" z="11" spawntime="60" />
+		<monster name="Crusader" x="4" y="2" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32588" centery="32573" centerz="11" radius="5">
+		<monster name="Headwalker" x="0" y="0" z="11" spawntime="60" />
+		<monster name="Crusader" x="-1" y="2" z="11" spawntime="60" />
+		<monster name="Headwalker" x="2" y="3" z="11" spawntime="60" />
+		<monster name="Headwalker" x="4" y="4" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32635" centery="32574" centerz="11" radius="5">
+		<monster name="Crusader" x="-1" y="2" z="11" spawntime="60" />
+		<monster name="Crusader" x="1" y="2" z="11" spawntime="60" />
+		<monster name="Headwalker" x="3" y="2" z="11" spawntime="60" />
+		<monster name="Crusader" x="1" y="3" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32609" centery="32575" centerz="11" radius="5">
+		<monster name="Headwalker" x="0" y="0" z="11" spawntime="60" />
+		<monster name="Headwalker" x="-3" y="3" z="11" spawntime="60" />
+		<monster name="Headwalker" x="-1" y="3" z="11" spawntime="60" />
+		<monster name="Crusader" x="2" y="3" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32634" centery="32576" centerz="11" radius="5">
+		<monster name="Headwalker" x="-3" y="4" z="11" spawntime="60" />
+		<monster name="Crusader" x="-1" y="4" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32592" centery="32577" centerz="11" radius="5">
+		<monster name="Crusader" x="4" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32631" centery="32580" centerz="11" radius="5">
+		<monster name="Crusader" x="-2" y="2" z="11" spawntime="60" />
+		<monster name="Crusader" x="0" y="5" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32506" centery="32584" centerz="11" radius="5">
+		<monster name="Gargoyle" x="0" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32606" centery="32585" centerz="11" radius="5">
+		<monster name="Crusader" x="0" y="0" z="11" spawntime="60" />
+		<monster name="Headwalker" x="4" y="2" z="11" spawntime="60" />
+		<monster name="Headwalker" x="-2" y="3" z="11" spawntime="60" />
+		<monster name="Crusader" x="3" y="4" z="11" spawntime="60" />
+		<monster name="Crusader" x="4" y="4" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32631" centery="32585" centerz="11" radius="5">
+		<monster name="Headwalker" x="-4" y="5" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32622" centery="32586" centerz="11" radius="5">
+		<monster name="Crusader" x="0" y="0" z="11" spawntime="60" />
+		<monster name="Crusader" x="3" y="4" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32610" centery="32587" centerz="11" radius="5">
+		<monster name="Headwalker" x="-4" y="4" z="11" spawntime="60" />
+		<monster name="Crusader" x="3" y="5" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32594" centery="32588" centerz="11" radius="5">
+		<monster name="Crusader" x="0" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32585" centery="32589" centerz="11" radius="5">
+		<monster name="Crusader" x="0" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32625" centery="32590" centerz="11" radius="5">
+		<monster name="Crusader" x="3" y="4" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32596" centery="32594" centerz="11" radius="5">
+		<monster name="Headwalker" x="0" y="0" z="11" spawntime="60" />
+		<monster name="Crusader" x="-5" y="2" z="11" spawntime="60" />
+		<monster name="Crusader" x="1" y="2" z="11" spawntime="60" />
+		<monster name="Headwalker" x="2" y="4" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32588" centery="32595" centerz="11" radius="5">
+		<monster name="Crusader" x="0" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32605" centery="32598" centerz="11" radius="5">
+		<monster name="Headwalker" x="0" y="0" z="11" spawntime="60" />
+	</monster>
+	<monster centerx="32602" centery="32533" centerz="12" radius="5">
+		<monster name="Cursed Book" x="0" y="0" z="12" spawntime="60" />
+	</monster>
+	<monster centerx="32613" centery="32533" centerz="12" radius="5">
+		<monster name="Cursed Book" x="0" y="0" z="12" spawntime="60" />
+		<monster name="Cursed Book" x="3" y="5" z="12" spawntime="60" />
+	</monster>
+	<monster centerx="32558" centery="32535" centerz="12" radius="5">
+		<monster name="Cursed Book" x="0" y="0" z="12" spawntime="60" />
+		<monster name="Cursed Book" x="4" y="1" z="12" spawntime="60" />
+		<monster name="Ink Blob" x="4" y="2" z="12" spawntime="60" />
+		<monster name="Ink Blob" x="-1" y="4" z="12" spawntime="60" />
+	</monster>
+	<monster centerx="32562" centery="32536" centerz="12" radius="5">
+		<monster name="Cursed Book" x="-4" y="5" z="12" spawntime="60" />
+	</monster>
+	<monster centerx="32574" centery="32536" centerz="12" radius="5">
+		<monster name="Ink Blob" x="0" y="0" z="12" spawntime="60" />
+		<monster name="Ink Blob" x="-1" y="1" z="12" spawntime="60" />
+		<monster name="Cursed Book" x="-3" y="2" z="12" spawntime="60" />
+	</monster>
+	<monster centerx="32573" centery="32537" centerz="12" radius="5">
+		<monster name="Cursed Book" x="-5" y="4" z="12" spawntime="60" />
+	</monster>
+	<monster centerx="32621" centery="32537" centerz="12" radius="5">
+		<monster name="Biting Book" x="0" y="0" z="12" spawntime="60" />
+		<monster name="Biting Book" x="4" y="1" z="12" spawntime="60" />
+		<monster name="Biting Book" x="2" y="2" z="12" spawntime="60" />
+		<monster name="Biting Book" x="1" y="4" z="12" spawntime="60" />
+	</monster>
+	<monster centerx="32594" centery="32538" centerz="12" radius="5">
+		<monster name="Cursed Book" x="0" y="0" z="12" spawntime="60" />
+		<monster name="Cursed Book" x="1" y="4" z="12" spawntime="60" />
+	</monster>
+	<monster centerx="32616" centery="32538" centerz="12" radius="5">
+		<monster name="Biting Book" x="-4" y="1" z="12" spawntime="60" />
+		<monster name="Cursed Book" x="-3" y="4" z="12" spawntime="60" />
+	</monster>
+	<monster centerx="32558" centery="32541" centerz="12" radius="5">
+		<monster name="Ink Blob" x="-1" y="5" z="12" spawntime="60" />
+	</monster>
+	<monster centerx="32582" centery="32544" centerz="12" radius="5">
+		<monster name="Cursed Book" x="0" y="0" z="12" spawntime="60" />
+		<monster name="Ink Blob" x="3" y="0" z="12" spawntime="60" />
+	</monster>
+	<monster centerx="32557" centery="32546" centerz="12" radius="5">
+		<monster name="Cursed Book" x="3" y="1" z="12" spawntime="60" />
+	</monster>
+	<monster centerx="32606" centery="32546" centerz="12" radius="5">
+		<monster name="Cursed Book" x="0" y="0" z="12" spawntime="60" />
+		<monster name="Cursed Book" x="1" y="0" z="12" spawntime="60" />
+	</monster>
+	<monster centerx="32632" centery="32546" centerz="12" radius="5">
+		<monster name="Squid Warden" x="0" y="0" z="12" spawntime="60" />
+		<monster name="Squid Warden" x="-1" y="3" z="12" spawntime="60" />
+		<monster name="Squid Warden" x="5" y="5" z="12" spawntime="60" />
+	</monster>
+	<monster centerx="32631" centery="32549" centerz="12" radius="5">
+		<monster name="Icecold Book" x="1" y="5" z="12" spawntime="60" />
+	</monster>
+	<monster centerx="32644" centery="32553" centerz="12" radius="5">
+		<monster name="Icecold Book" x="0" y="0" z="12" spawntime="60" />
+		<monster name="Squid Warden" x="-3" y="4" z="12" spawntime="60" />
+	</monster>
+	<monster centerx="32641" centery="32557" centerz="12" radius="5">
+		<monster name="Squid Warden" x="1" y="2" z="12" spawntime="60" />
+		<monster name="Squid Warden" x="-5" y="3" z="12" spawntime="60" />
+		<monster name="Squid Warden" x="1" y="5" z="12" spawntime="60" />
+	</monster>
+	<monster centerx="32569" centery="32560" centerz="12" radius="5">
+		<monster name="Squid Warden" x="0" y="0" z="12" spawntime="60" />
+	</monster>
+	<monster centerx="32621" centery="32560" centerz="12" radius="5">
+		<monster name="Cursed Book" x="0" y="0" z="12" spawntime="60" />
+		<monster name="Icecold Book" x="0" y="3" z="12" spawntime="60" />
+		<monster name="Cursed Book" x="-5" y="5" z="12" spawntime="60" />
+		<monster name="Cursed Book" x="0" y="5" z="12" spawntime="60" />
+	</monster>
+	<monster centerx="32629" centery="32563" centerz="12" radius="5">
+		<monster name="Icecold Book" x="0" y="0" z="12" spawntime="60" />
+		<monster name="Icecold Book" x="5" y="5" z="12" spawntime="60" />
+	</monster>
+	<monster centerx="32616" centery="32565" centerz="12" radius="5">
+		<monster name="Cursed Book" x="-3" y="3" z="12" spawntime="60" />
+	</monster>
+	<monster centerx="32601" centery="32567" centerz="12" radius="5">
+		<monster name="Cursed Book" x="0" y="0" z="12" spawntime="60" />
+	</monster>
+	<monster centerx="32580" centery="32568" centerz="12" radius="5">
+		<monster name="Icecold Book" x="0" y="0" z="12" spawntime="60" />
+	</monster>
+	<monster centerx="32634" centery="32568" centerz="12" radius="5">
+		<monster name="Ink Blob" x="-4" y="5" z="12" spawntime="60" />
+	</monster>
+	<monster centerx="32546" centery="32571" centerz="12" radius="5">
+		<monster name="Squid Warden" x="0" y="0" z="12" spawntime="60" />
+		<monster name="Icecold Book" x="0" y="2" z="12" spawntime="60" />
+		<monster name="Icecold Book" x="0" y="5" z="12" spawntime="60" />
+	</monster>
+	<monster centerx="32562" centery="32574" centerz="12" radius="5">
+		<monster name="Icecold Book" x="0" y="0" z="12" spawntime="60" />
+		<monster name="Squid Warden" x="3" y="1" z="12" spawntime="60" />
+	</monster>
+	<monster centerx="32570" centery="32574" centerz="12" radius="5">
+		<monster name="Squid Warden" x="0" y="0" z="12" spawntime="60" />
+	</monster>
+	<monster centerx="32565" centery="32575" centerz="12" radius="5">
+		<monster name="Icecold Book" x="-4" y="5" z="12" spawntime="60" />
+		<monster name="Squid Warden" x="-1" y="5" z="12" spawntime="60" />
+	</monster>
+	<monster centerx="32636" centery="32578" centerz="12" radius="5">
+		<monster name="Ink Blob" x="0" y="0" z="12" spawntime="60" />
+	</monster>
+	<monster centerx="32561" centery="32580" centerz="12" radius="5">
+		<monster name="Icecold Book" x="1" y="1" z="12" spawntime="60" />
+	</monster>
+	<monster centerx="32580" centery="32582" centerz="12" radius="5">
+		<monster name="Icecold Book" x="0" y="0" z="12" spawntime="60" />
+	</monster>
+	<monster centerx="32547" centery="32590" centerz="12" radius="5">
+		<monster name="Icecold Book" x="0" y="0" z="12" spawntime="60" />
+		<monster name="Squid Warden" x="-1" y="1" z="12" spawntime="60" />
+		<monster name="Icecold Book" x="1" y="2" z="12" spawntime="60" />
+	</monster>
+	<monster centerx="32554" centery="32592" centerz="12" radius="5">
+		<monster name="Icecold Book" x="0" y="0" z="12" spawntime="60" />
+	</monster>
+	<monster centerx="32615" centery="32596" centerz="12" radius="5">
+		<monster name="Burning Book" x="0" y="0" z="12" spawntime="60" />
+	</monster>
+	<monster centerx="32625" centery="32599" centerz="12" radius="5">
+		<monster name="Burning Book" x="0" y="0" z="12" spawntime="60" />
+		<monster name="Rage Squid" x="4" y="3" z="12" spawntime="60" />
+	</monster>
+	<monster centerx="32616" centery="32602" centerz="12" radius="5">
+		<monster name="Rage Squid" x="0" y="0" z="12" spawntime="60" />
+	</monster>
+	<monster centerx="32555" centery="32607" centerz="12" radius="5">
+		<monster name="Icecold Book" x="0" y="0" z="12" spawntime="60" />
+		<monster name="Squid Warden" x="0" y="3" z="12" spawntime="60" />
+		<monster name="Energetic Book" x="-2" y="5" z="12" spawntime="60" />
+	</monster>
+	<monster centerx="32543" centery="32610" centerz="12" radius="5">
+		<monster name="Animated Feather" x="0" y="0" z="12" spawntime="60" />
+	</monster>
+	<monster centerx="32541" centery="32630" centerz="12" radius="5">
+		<monster name="Knowledge Elemental" x="0" y="0" z="12" spawntime="60" />
+	</monster>
+	<monster centerx="32554" centery="32630" centerz="12" radius="5">
+		<monster name="Knowledge Elemental" x="0" y="0" z="12" spawntime="60" />
+	</monster>
+	<monster centerx="32287" centery="32818" centerz="12" radius="5">
+		<monster name="Minotaur Guard" x="0" y="0" z="12" spawntime="60" />
+	</monster>
+	<monster centerx="32617" centery="32541" centerz="13" radius="5">
+		<monster name="Icecold Book" x="0" y="0" z="13" spawntime="60" />
+		<monster name="Squid Warden" x="-3" y="1" z="13" spawntime="60" />
+	</monster>
+	<monster centerx="32610" centery="32548" centerz="13" radius="5">
+		<monster name="Squid Warden" x="0" y="0" z="13" spawntime="60" />
+	</monster>
+	<monster centerx="32540" centery="32616" centerz="13" radius="5">
+		<monster name="Animated Feather" x="0" y="0" z="13" spawntime="60" />
+	</monster>
+	<monster centerx="32545" centery="32623" centerz="13" radius="5">
+		<monster name="Squid Warden" x="0" y="0" z="13" spawntime="60" />
+		<monster name="Squid Warden" x="-5" y="3" z="13" spawntime="60" />
+		<monster name="Icecold Book" x="-5" y="4" z="13" spawntime="60" />
+	</monster>
+	<monster centerx="32540" centery="32626" centerz="13" radius="5">
+		<monster name="Icecold Book" x="-2" y="1" z="13" spawntime="60" />
+	</monster>
+	<monster centerx="32546" centery="32629" centerz="13" radius="5">
+		<monster name="Squid Warden" x="0" y="0" z="13" spawntime="60" />
+	</monster>
+	<monster centerx="32277" centery="32823" centerz="13" radius="5">
+		<monster name="Corym Charlatan" x="0" y="0" z="13" spawntime="60" />
+	</monster>
+	<monster centerx="32297" centery="32824" centerz="13" radius="5">
+		<monster name="Lizard Sentinel" x="0" y="0" z="13" spawntime="60" />
+	</monster>
+	<monster centerx="32290" centery="32826" centerz="13" radius="5">
+		<monster name="Lizard Sentinel" x="0" y="0" z="13" spawntime="60" />
+	</monster>
+	<monster centerx="32290" centery="32823" centerz="14" radius="5">
+		<!--<monster name="bound iks aucar" x="0" y="0" z="14" spawntime="60" />-->
+		<monster name="Tropical Desolator" x="-2" y="3" z="14" spawntime="60" />
+		<!--<monster name="blamana" x="4" y="5" z="14" spawntime="60" />-->
+	</monster>
+	<monster centerx="32152" centery="32827" centerz="14" radius="5">
+		<monster name="Blight Mariner" x="0" y="0" z="14" spawntime="60" />
+	</monster>
+	<monster centerx="32230" centery="32829" centerz="14" radius="5">
+		<monster name="Wrathful Archivist" x="0" y="0" z="14" spawntime="60" />
+	</monster>
+	<!--<monster centerx="32153" centery="32833" centerz="14" radius="5">
+		<monster name="drowned deck hand" x="0" y="0" z="14" spawntime="60" />
+	</monster>
+	<monster centerx="32160" centery="32833" centerz="14" radius="5">
+		<monster name="drowned deck hand" x="0" y="0" z="14" spawntime="60" />
+		<monster name="drowned deck hand" x="5" y="4" z="14" spawntime="60" />
+	</monster>
+	<monster centerx="32283" centery="32835" centerz="14" radius="5">
+		<monster name="blastberry" x="0" y="0" z="14" spawntime="60" />
+		<monster name="painapple" x="5" y="5" z="14" spawntime="60" />
+	</monster>
+	<monster centerx="32295" centery="32835" centerz="14" radius="5">
+		<monster name="bound iks aucar" x="0" y="0" z="14" spawntime="60" />
+	</monster>-->
+	<monster centerx="32909" centery="31403" centerz="15" radius="5">
+		<monster name="Norcferatu Minion" x="0" y="0" z="15" spawntime="60" />
+		<monster name="Norcferatu Minion" x="2" y="0" z="15" spawntime="60" />
+		<monster name="Norcferatu Abomination" x="1" y="2" z="15" spawntime="60" />
+	</monster>
+	<!--<monster centerx="32954" centery="31405" centerz="15" radius="5">
+		<monster name="Anaztassja Moroia" x="0" y="0" z="15" spawntime="60" />
+		<monster name="bombat" x="-2" y="1" z="15" spawntime="60" />
+	</monster>-->
+	<monster centerx="32912" centery="31455" centerz="15" radius="5">
+		<monster name="Vampiric Essence" x="0" y="0" z="15" spawntime="60" />
+		<!--<monster name="blood pool" x="2" y="4" z="15" spawntime="60" />-->
+	</monster>
+	<monster centerx="32914" centery="31459" centerz="15" radius="5">
+		<!--<monster name="blood pool" x="-4" y="3" z="15" spawntime="60" />-->
+		<monster name="Vampire Bat" x="-2" y="3" z="15" spawntime="60" />
+		<monster name="Vampire Bat" x="-1" y="3" z="15" spawntime="60" />
+		<monster name="Vladrukh" x="-2" y="4" z="15" spawntime="60" />
+		<monster name="Vampire Bat" x="-1" y="4" z="15" spawntime="60" />
+		<!--<monster name="blood pool" x="1" y="5" z="15" spawntime="60" />-->
+	</monster>
+	<monster centerx="32904" centery="31463" centerz="15" radius="5">
+		<monster name="Vampiric Essence" x="0" y="0" z="15" spawntime="60" />
+	</monster>
+	<monster centerx="32920" centery="31463" centerz="15" radius="5">
+		<monster name="Vampiric Essence" x="0" y="0" z="15" spawntime="60" />
+	</monster>
+	<monster centerx="32912" centery="31471" centerz="15" radius="5">
+		<monster name="Vampiric Essence" x="0" y="0" z="15" spawntime="60" />
+	</monster>
+	<monster centerx="32911" centery="31499" centerz="15" radius="5">
+		<monster name="Digestive Ooze" x="0" y="0" z="15" spawntime="60" />
+	</monster>
+	<monster centerx="32929" centery="31500" centerz="15" radius="5">
+		<monster name="Digestive Ooze" x="0" y="0" z="15" spawntime="60" />
+		<monster name="Digestive Ooze" x="0" y="3" z="15" spawntime="60" />
+	</monster>
+	<monster centerx="32940" centery="31501" centerz="15" radius="5">
+		<monster name="Vampiric Flesh" x="0" y="0" z="15" spawntime="60" />
+	</monster>
+	<monster centerx="32905" centery="31511" centerz="15" radius="5">
+		<monster name="Digestive Ooze" x="0" y="0" z="15" spawntime="60" />
+		<monster name="Digestive Ooze" x="-2" y="3" z="15" spawntime="60" />
+	</monster>
+	<monster centerx="32928" centery="31521" centerz="15" radius="5">
+		<monster name="Digestive Ooze" x="0" y="0" z="15" spawntime="60" />
+	</monster>
+	<monster centerx="32939" centery="31522" centerz="15" radius="5">
+		<monster name="Digestive Ooze" x="0" y="0" z="15" spawntime="60" />
+		<monster name="Digestive Ooze" x="2" y="0" z="15" spawntime="60" />
+		<monster name="Digestive Ooze" x="0" y="1" z="15" spawntime="60" />
+		<monster name="Digestive Ooze" x="-1" y="3" z="15" spawntime="60" />
+		<monster name="Digestive Ooze" x="0" y="5" z="15" spawntime="60" />
+	</monster>
+	<monster centerx="32939" centery="31523" centerz="15" radius="5">
+		<monster name="Digestive Ooze" x="-1" y="5" z="15" spawntime="60" />
+		<monster name="Digestive Ooze" x="3" y="5" z="15" spawntime="60" />
+	</monster>
+</monsters>

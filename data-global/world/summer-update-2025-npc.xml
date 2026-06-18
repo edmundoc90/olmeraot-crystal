@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<npcs>
+	<npc centerx="33270" centery="31831" centerz="1" radius="5">
+		<npc name="Spectulus" x="0" y="0" z="1" spawntime="60" />
+	</npc>
+	<npc centerx="33268" centery="31835" centerz="2" radius="5">
+		<npc name="Sinclair" x="0" y="0" z="2" spawntime="60" />
+	</npc>
+	<npc centerx="33256" centery="31824" centerz="3" radius="5">
+		<npc name="Milos" x="0" y="0" z="3" spawntime="60" />
+	</npc>
+	<npc centerx="33256" centery="31839" centerz="3" radius="5">
+		<npc name="Alexander" x="0" y="0" z="3" spawntime="60" />
+	</npc>
+	<npc centerx="33280" centery="31847" centerz="3" radius="5">
+		<npc name="Arkulius" x="0" y="0" z="3" spawntime="60" />
+	</npc>
+	<npc centerx="33254" centery="31838" centerz="4" radius="5">
+		<npc name="Thomas" x="0" y="0" z="4" spawntime="60" />
+	</npc>
+	<npc centerx="33270" centery="31848" centerz="4" radius="5">
+		<npc name="Zoltan" x="0" y="0" z="4" spawntime="60" />
+	</npc>
+	<npc centerx="32953" centery="32039" centerz="4" radius="5">
+		<npc name="Uncle" x="0" y="0" z="4" spawntime="60" />
+	</npc>
+	<npc centerx="32818" centery="31280" centerz="5" radius="5">
+		<npc name="Karith" x="0" y="0" z="5" spawntime="60" />
+	</npc>
+	<npc centerx="33254" centery="31842" centerz="5" radius="5">
+		<npc name="Luna" x="0" y="0" z="5" spawntime="60" />
+	</npc>
+	<npc centerx="33271" centery="31846" centerz="5" radius="5">
+		<npc name="Gundralph" x="0" y="0" z="5" spawntime="60" />
+	</npc>
+	<npc centerx="32805" centery="31268" centerz="6" radius="5">
+		<npc name="Guide Edna" x="0" y="0" z="6" spawntime="60" />
+	</npc>
+	<npc centerx="32956" centery="31420" centerz="6" radius="1">
+		<npc name="An Orchish Ancestor Spirit" x="0" y="0" z="6" spawntime="60" />
+	</npc>
+	<npc centerx="32914" centery="31444" centerz="6" radius="5">
+		<npc name="Anaztassja Moroia" x="0" y="0" z="6" spawntime="60" />
+	</npc>
+	<npc centerx="33177" centery="31765" centerz="6" radius="5">
+		<npc name="Captain Seahorse" x="0" y="0" z="6" spawntime="60" />
+	</npc>
+	<npc centerx="33181" centery="31771" centerz="6" radius="5">
+		<npc name="Guide Jonathan" x="0" y="0" z="6" spawntime="60" />
+	</npc>
+	<npc centerx="33213" centery="31811" centerz="6" radius="5">
+		<npc name="Rudolph" x="0" y="0" z="6" spawntime="60" />
+	</npc>
+	<!--<npc centerx="33248" centery="31839" centerz="6" radius="5">
+		<npc name="Gnomcruiter" x="0" y="0" z="6" spawntime="60" />
+	</npc>-->
+	<npc centerx="33267" centery="31845" centerz="6" radius="5">
+		<npc name="Eliza" x="0" y="0" z="6" spawntime="60" />
+	</npc>
+	<npc centerx="32954" centery="32022" centerz="6" radius="5">
+		<npc name="Captain Fearless" x="0" y="0" z="6" spawntime="60" />
+	</npc>
+	<npc centerx="32952" centery="32030" centerz="6" radius="5">
+		<npc name="Guide Elena" x="0" y="0" z="6" spawntime="60" />
+	</npc>
+	<npc centerx="32284" centery="32890" centerz="6" radius="5">
+		<npc name="Jack Fate" x="0" y="0" z="6" spawntime="60" />
+	</npc>
+	<npc centerx="32276" centery="32895" centerz="6" radius="5">
+		<npc name="Guide Davina" x="0" y="0" z="6" spawntime="60" />
+	</npc>
+	<npc centerx="32821" centery="31222" centerz="7" radius="5">
+		<npc name="Soilance" x="0" y="0" z="7" spawntime="60" />
+	</npc>
+	<npc centerx="32821" centery="31240" centerz="7" radius="5">
+		<npc name="Morpel" x="0" y="0" z="7" spawntime="60" />
+	</npc>
+	<npc centerx="32809" centery="31251" centerz="7" radius="5">
+		<npc name="Pugwah" x="0" y="0" z="7" spawntime="60" />
+	</npc>
+	<npc centerx="33265" centery="31785" centerz="7" radius="5">
+		<npc name="An Ominous Bat" x="0" y="0" z="7" spawntime="60" />
+		<npc name="Anaztassja Moroia Init" x="5" y="5" z="7" spawntime="60" />
+	</npc>
+	<npc centerx="33189" centery="31795" centerz="7" radius="5">
+		<npc name="Daniel Steelsoul" x="0" y="0" z="7" spawntime="60" />
+	</npc>
+	<npc centerx="33227" centery="31834" centerz="7" radius="5">
+		<npc name="Edvard" x="0" y="0" z="7" spawntime="60" />
+	</npc>
+	<npc centerx="33257" centery="31841" centerz="7" radius="5">
+		<npc name="Sandra" x="0" y="0" z="7" spawntime="60" />
+	</npc>
+	<npc centerx="33270" centery="31848" centerz="7" radius="5">
+		<npc name="Ursula" x="0" y="0" z="7" spawntime="60" />
+	</npc>
+	<npc centerx="32318" centery="32860" centerz="7" radius="5">
+		<npc name="Marcus" x="0" y="0" z="7" spawntime="60" />
+	</npc>
+	<npc centerx="33269" centery="31848" centerz="8" radius="5">
+		<npc name="Puffels" x="0" y="0" z="8" spawntime="60" />
+	</npc>
+	<npc centerx="32543" centery="32521" centerz="8" radius="5">
+		<npc name="Quill" x="0" y="0" z="8" spawntime="60" />
+	</npc>
+	<npc centerx="32881" centery="31437" centerz="10" radius="5">
+		<npc name="Anaztassja Moroia Vampires Lair" x="0" y="0" z="10" spawntime="60" />
+	</npc>
+	<!--<npc centerx="32570" centery="32573" centerz="11" radius="5">
+		<npc name="Death" x="0" y="0" z="11" spawntime="60" />
+	</npc>-->
+	<npc centerx="32538" centery="32575" centerz="11" radius="5">
+		<npc name="Quill" x="0" y="0" z="11" spawntime="60" />
+	</npc>
+	<npc centerx="32898" centery="31421" centerz="12" radius="5">
+		<npc name="Anaztassja Moroia" x="0" y="0" z="12" spawntime="60" />
+	</npc>
+	<npc centerx="32944" centery="31504" centerz="14" radius="5">
+		<npc name="Anaztassja Moroia" x="0" y="0" z="14" spawntime="60" />
+	</npc>
+	<npc centerx="32950" centery="31462" centerz="15" radius="5">
+		<npc name="Anaztassja Moroia" x="0" y="0" z="15" spawntime="60" />
+	</npc>
+</npcs>

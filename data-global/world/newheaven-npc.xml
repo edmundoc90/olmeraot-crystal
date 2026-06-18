@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<npcs>
+	<npc centerx="32559" centery="32490" centerz="7" radius="7">
+		<npc name="Gustavo, The Guard" x="1" y="-2" z="7" spawntime="60" />
+		<npc name="Flavius" x="7" y="-1" z="7" spawntime="60" direction="2" />
+		<npc name="Anna" x="-7" y="7" z="7" spawntime="60" direction="2" />
+	</npc>
+	<npc centerx="32554" centery="32505" centerz="7" radius="1">
+		<npc name="Avriel" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</npc>
+	<npc centerx="32571" centery="32507" centerz="7" radius="1">
+		<npc name="Viola" x="0" y="0" z="7" spawntime="60" direction="2" />
+	</npc>
+</npcs>

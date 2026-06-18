@@ -1,0 +1,48 @@
+name: olmeraot-dev-crystal
+
+services:
+  database:
+    container_name: mysql-dev-crystal
+    image: mariadb:latest
+    restart: unless-stopped
+    env_file:
+      - '.env'
+    networks:
+      - olmeraot-dev-crystal-net
+    ports:
+      - '${MYSQL_PORT}:3306'
+    volumes:
+      - 'dev-crystal-db-volume:/var/lib/mysql'
+      - ../schema.sql:/docker-entrypoint-initdb.d/init.sql
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  server:
+    container_name: olmeraot-dev-crystal
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.dev
+      target: prod
+    restart: unless-stopped
+    env_file:
+      - '.env'
+    networks:
+      - olmeraot-dev-crystal-net
+    ports:
+      - '${OT_SERVER_GAME_PORT}:${OT_SERVER_GAME_PORT}'
+      - '${OT_SERVER_STATUS_PORT}:${OT_SERVER_STATUS_PORT}'
+    volumes:
+      - '../:/srv/crystalserver'
+    depends_on:
+      database:
+        condition: service_healthy
+
+volumes:
+  dev-crystal-db-volume:
+
+networks:
+  olmeraot-dev-crystal-net:
+    driver: bridge

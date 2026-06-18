@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<monsters>
+	<monster centerx="32595" centery="32427" centerz="6" radius="5">
+		<monster name="Corrupted Ghost" x="0" y="0" z="6" spawntime="60" />
+	</monster>
+	<monster centerx="32611" centery="32427" centerz="7" radius="12">
+		<monster name="The Corruptor" x="3" y="-5" z="7" spawntime="60" />
+		<monster name="Corrupted Skeleton" x="-1" y="-4" z="7" spawntime="60" />
+		<monster name="Corrupted Skeleton" x="0" y="-3" z="7" spawntime="60" />
+		<monster name="Corrupted Skeleton" x="-12" y="-1" z="7" spawntime="60" />
+		<monster name="Corrupted Ghost" x="-4" y="0" z="7" spawntime="60" />
+		<monster name="Corrupted Skeleton" x="-3" y="0" z="7" spawntime="60" />
+		<monster name="Corrupted Ghost" x="12" y="6" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="32619" centery="32450" centerz="7" radius="9">
+		<monster name="Muglex Clan Assassin" x="6" y="0" z="7" spawntime="60" />
+		<monster name="Corrupted Ghost" x="-9" y="1" z="7" spawntime="60" />
+		<monster name="Muglex Clan Assassin" x="1" y="7" z="7" spawntime="60" weight="25" />
+		<monster name="Corrupted Skeleton" x="1" y="7" z="7" spawntime="60" weight="25" />
+		<monster name="Muglex Clan Footman" x="2" y="7" z="7" spawntime="60" />
+		<monster name="Muglex Clan Footman" x="1" y="8" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="32618" centery="32459" centerz="7" radius="15">
+		<monster name="Muglex Clan Footman" x="-4" y="8" z="7" spawntime="60" />
+		<monster name="Muglex Clan Footman" x="-2" y="8" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="32570" centery="32474" centerz="7" radius="13">
+		<monster name="Muglex Clan Footman" x="2" y="0" z="7" spawntime="60" />
+		<monster name="Muglex Clan Footman" x="-10" y="6" z="7" spawntime="60" />
+		<monster name="Muglex Clan Footman" x="-9" y="7" z="7" spawntime="60" />
+	</monster>
+	<monster centerx="32583" centery="32487" centerz="9" radius="5">
+		<monster name="Ghost" x="0" y="0" z="9" spawntime="60" />
+	</monster>
+</monsters>
