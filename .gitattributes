@@ -1,1 +1,5 @@
 text eol=lf
+
+# Keep OlmeraOT Docker build files during upstream merges
+docker/Dockerfile.dev merge=ours
+docker/docker-compose.dev.yml merge=ours
