@@ -396,3 +396,18 @@ database_backup
 # CLION
 cmake-build-*
 /data/logs
+
+# OlmeraOT local generated config
+config.lua
+config.lua.template
+docker/.env.dev
+docker/.env.qa
+docker/.env.prod
+
+# Private OlmeraOT local config
+config.lua
+config.lua.template
+docker/.env
+docker/.env.dev
+docker/.env.qa
+docker/.env.prod
