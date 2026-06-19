@@ -1,0 +1,48 @@
+name: olmeraot-prod
+
+services:
+  database:
+    container_name: mysql-olmeraot-prod
+    image: mariadb:11.4
+    restart: unless-stopped
+    env_file:
+      - .env.prod
+    networks:
+      - olmeraot-prod-net
+    ports:
+      - "${MYSQL_PORT}:3306"
+    volumes:
+      - olmeraot-prod-db:/var/lib/mysql
+      - ../schema.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  server:
+    container_name: olmeraot-prod
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.dev
+      target: prod
+    restart: unless-stopped
+    env_file:
+      - .env.prod
+    networks:
+      - olmeraot-prod-net
+    ports:
+      - "${OT_SERVER_GAME_PORT}:${OT_SERVER_GAME_PORT}"
+      - "${OT_SERVER_STATUS_PORT}:${OT_SERVER_STATUS_PORT}"
+    volumes:
+      - ../:/srv/olmeraot
+    depends_on:
+      database:
+        condition: service_healthy
+
+volumes:
+  olmeraot-prod-db:
+
+networks:
+  olmeraot-prod-net:
+    driver: bridge
