@@ -1,0 +1,48 @@
+name: olmeraot-qa
+
+services:
+  database:
+    container_name: mysql-olmeraot-qa
+    image: mariadb:11.4
+    restart: unless-stopped
+    env_file:
+      - .env.qa
+    networks:
+      - olmeraot-qa-net
+    ports:
+      - "${MYSQL_PORT}:3306"
+    volumes:
+      - olmeraot-qa-db:/var/lib/mysql
+      - ../schema.sql:/docker-entrypoint-initdb.d/init.sql:ro
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  server:
+    container_name: olmeraot-qa
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.dev
+      target: prod
+    restart: unless-stopped
+    env_file:
+      - .env.qa
+    networks:
+      - olmeraot-qa-net
+    ports:
+      - "${OT_SERVER_GAME_PORT}:${OT_SERVER_GAME_PORT}"
+      - "${OT_SERVER_STATUS_PORT}:${OT_SERVER_STATUS_PORT}"
+    volumes:
+      - ../:/srv/olmeraot
+    depends_on:
+      database:
+        condition: service_healthy
+
+volumes:
+  olmeraot-qa-db:
+
+networks:
+  olmeraot-qa-net:
+    driver: bridge
