@@ -414,3 +414,4 @@ docker/.env.prod
 # Local private notes and real secrets. Do not commit actual secrets.
 .docs/12_LOCAL_SECRETS.md
 
+docker/.env.dev-crystal
