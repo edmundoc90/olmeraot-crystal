@@ -1,0 +1,22 @@
+name: Prod Rollback (manual)
+
+on:
+  workflow_dispatch:
+    inputs:
+      target:
+        description: 'one of previous-1, previous-2, previous-3'
+        required: true
+
+jobs:
+  rollback:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run rollback on PROD host
+        uses: appleboy/ssh-action@v0.1.8
+        with:
+          host: ${{ secrets.VPS_PROD_HOST }}
+          username: ${{ secrets.VPS_SSH_USER }}
+          key: ${{ secrets.VPS_SSH_PRIVATE_KEY }}
+          port: ${{ secrets.VPS_SSH_PORT || '22' }}
+          script: |
+            /usr/local/bin/olmera-rollback.sh --target "${{ github.event.inputs.target }}" --operator "${{ github.actor }}"

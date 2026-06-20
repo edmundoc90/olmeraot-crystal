@@ -1,0 +1,33 @@
+name: Mark QA Validated
+
+on:
+  workflow_dispatch:
+    inputs:
+      image_digest:
+        description: 'QA image digest (sha256:...)'
+        required: true
+      commit_sha:
+        description: 'Commit SHA corresponding to the QA build'
+        required: true
+      release_id:
+        description: 'Release identifier (e.g., 20260619-213245)'
+        required: true
+
+jobs:
+  mark-validated:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Prepare validated metadata
+        run: |
+          VALIDATED_AT=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+          printf '{"image":"ghcr.io/%s/olmeraot@%s","image_id":"%s","commit":"%s","validated_at":"%s","validated_by":"%s","release_id":"%s"}' "${{ github.repository_owner }}" "${{ github.event.inputs.image_digest }}" "${{ github.event.inputs.image_digest }}" "${{ github.event.inputs.commit_sha }}" "${VALIDATED_AT}" "${{ github.actor }}" "${{ github.event.inputs.release_id }}" > qa-validated-${{ github.event.inputs.release_id }}.json
+
+      - name: Upload validated metadata artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: qa-validated-${{ github.event.inputs.release_id }}
+          path: qa-validated-${{ github.event.inputs.release_id }}.json
+
+      - name: Output summary
+        run: |
+          cat qa-validated-${{ github.event.inputs.release_id }}.json

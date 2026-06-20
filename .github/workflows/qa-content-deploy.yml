@@ -1,0 +1,32 @@
+name: QA Content Deploy (sync-only)
+
+on:
+  push:
+    branches: [ qa ]
+    paths:
+      - 'overrides/**'
+      - 'data/**'
+      - 'data-crystal/**'
+      - 'data-global/**'
+
+jobs:
+  sync-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (with submodules)
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Capture SHORT_SHA
+        run: echo "SHORT_SHA=$(echo ${GITHUB_SHA} | cut -c1-7)" >> $GITHUB_ENV
+
+      - name: Deploy content to QA host (no build)
+        uses: appleboy/ssh-action@v0.1.8
+        with:
+          host: ${{ secrets.VPS_QA_HOST }}
+          username: ${{ secrets.VPS_SSH_USER }}
+          key: ${{ secrets.VPS_SSH_PRIVATE_KEY }}
+          port: ${{ secrets.VPS_SSH_PORT || '22' }}
+          script: |
+            /usr/local/bin/olmera-deploy.sh --env qa --content-only --commit "${{ github.sha }}" --release-id "content-${{ env.SHORT_SHA }}"

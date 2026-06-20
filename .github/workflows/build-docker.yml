@@ -1,18 +1,8 @@
 ---
-name: Build - Docker
+name: Build - Docker (upstream manual)
 
 on:
   workflow_dispatch:
-  pull_request:
-    types: [opened, synchronize, reopened, ready_for_review]
-    paths:
-      - "src/**"
-  merge_group:
-  push:
-    paths:
-      - "src/**"
-    branches:
-      - main
 
 jobs:
   cancel-runs:
