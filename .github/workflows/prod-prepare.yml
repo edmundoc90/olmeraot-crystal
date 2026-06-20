@@ -1,0 +1,43 @@
+name: Prod Prepare (manual)
+
+on:
+  workflow_dispatch:
+    inputs:
+      qa_validated_image_digest:
+        description: 'QA validated image digest (sha256:...)'
+        required: true
+      commit_sha:
+        description: 'Commit SHA from QA build'
+        required: true
+      release_id:
+        description: 'Release identifier (e.g., 20260619-213245)'
+        required: true
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Validate inputs
+        run: |
+          if [ -z "${{ github.event.inputs.qa_validated_image_digest }}" ]; then
+            echo "qa_validated_image_digest is required"
+            exit 1
+          fi
+          if [ -z "${{ github.event.inputs.commit_sha }}" ]; then
+            echo "commit_sha is required"
+            exit 1
+          fi
+          if [ -z "${{ github.event.inputs.release_id }}" ]; then
+            echo "release_id is required"
+            exit 1
+          fi
+
+      - name: Prepare release on PROD host
+        uses: appleboy/ssh-action@v0.1.8
+        with:
+          host: ${{ secrets.VPS_PROD_HOST }}
+          username: ${{ secrets.VPS_SSH_USER }}
+          key: ${{ secrets.VPS_SSH_PRIVATE_KEY }}
+          port: ${{ secrets.VPS_SSH_PORT || '22' }}
+          script: |
+            /usr/local/bin/olmera-prepare-release.sh --image-digest "${{ github.event.inputs.qa_validated_image_digest }}" --commit-sha "${{ github.event.inputs.commit_sha }}" --release-id "${{ github.event.inputs.release_id }}"
