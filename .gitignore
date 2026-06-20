@@ -411,3 +411,6 @@ docker/.env
 docker/.env.dev
 docker/.env.qa
 docker/.env.prod
+# Local private notes and real secrets. Do not commit actual secrets.
+.docs/12_LOCAL_SECRETS.md
+
