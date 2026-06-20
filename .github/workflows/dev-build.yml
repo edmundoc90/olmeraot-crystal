@@ -69,6 +69,8 @@ jobs:
           file: docker/Dockerfile.dev
           target: prod
           push: true
+          cache-from: type=gha
+          cache-to: type=gha,mode=max
           tags: |
             ${{ env.IMAGE_REPOSITORY }}:dev-${{ env.SHORT_SHA }}
 
