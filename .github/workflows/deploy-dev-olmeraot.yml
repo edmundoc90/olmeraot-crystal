@@ -48,6 +48,11 @@ jobs:
               url."https://${OVERRIDES_REPO_TOKEN}@github.com/".insteadOf \
               "https://github.com/"
 
+            # Clean local DEV checkout so pipeline state always wins over manual changes.
+            git reset --hard
+            git clean -fd
+            git submodule foreach --recursive 'git reset --hard && git clean -fd' || true
+
             # Fetch exact remote branch state and reset local branch to it.
             git fetch --prune origin "+refs/heads/${BRANCH}:refs/remotes/origin/${BRANCH}"
             git checkout -B "${BRANCH}" "origin/${BRANCH}"
