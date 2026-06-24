@@ -1,0 +1,135 @@
+name: Deploy Feature Branch → DEV
+
+on:
+  push:
+    branches:
+      - 'feature/**'
+
+jobs:
+  deploy-dev:
+    name: Deploy ${{ github.ref_name }} to DEV
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Deploy feature branch to DEV via SSH
+        uses: appleboy/ssh-action@v0.1.8
+        with:
+          host: ${{ secrets.VPS_DEV_HOST }}
+          username: ${{ secrets.VPS_SSH_USER }}
+          key: ${{ secrets.VPS_SSH_PRIVATE_KEY }}
+          port: ${{ secrets.VPS_SSH_PORT || '22' }}
+          envs: GITHUB_REF_NAME,OVERRIDES_REPO_TOKEN
+          script: |
+            set -euo pipefail
+
+            BRANCH="${GITHUB_REF_NAME}"
+            REPO_DIR="/opt/olmera/dev/repo"
+            RUNTIME_DIR="/opt/olmera/dev/runtime"
+            WEB_CONFIG_PATH="/opt/olmera/dev/web-config/config.lua"
+            RUNTIME_CONFIG_PATH="${RUNTIME_DIR}/config.lua"
+            GENERATED_REPO_CONFIG=0
+
+            cleanup() {
+              git -C "${REPO_DIR}" config --local --unset-all \
+                url."https://${OVERRIDES_REPO_TOKEN}@github.com/".insteadOf || true
+              if [ "${GENERATED_REPO_CONFIG}" = "1" ]; then
+                rm -f "${REPO_DIR}/config.lua"
+              fi
+            }
+            trap cleanup EXIT
+
+            echo "==> Deploying branch: ${BRANCH}"
+            echo "==> Repo:    ${REPO_DIR}"
+            echo "==> Runtime: ${RUNTIME_DIR}"
+
+            cd "${REPO_DIR}"
+
+            # Configure token for private submodule access (scoped to this repo)
+            git -C "${REPO_DIR}" config --local \
+              url."https://${OVERRIDES_REPO_TOKEN}@github.com/".insteadOf \
+              "https://github.com/"
+
+            # Fetch exact remote branch state and reset local branch to it.
+            git fetch --prune origin "+refs/heads/${BRANCH}:refs/remotes/origin/${BRANCH}"
+            git checkout -B "${BRANCH}" "origin/${BRANCH}"
+
+            # Hard reset tracked files to exact remote state (no merge, no rebase).
+            git reset --hard "origin/${BRANCH}"
+
+            # Update submodules recursively (overrides and any nested)
+            git submodule sync --recursive
+            git submodule update --init --recursive
+
+            # Recreate runtime from a clean repo copy (runtime is disposable by design).
+            echo "==> Recreating runtime"
+            rm -rf "${RUNTIME_DIR}"
+            mkdir -p "${RUNTIME_DIR}"
+
+            rsync -a --delete \
+              --exclude='.git/' \
+              --exclude='overrides/' \
+              --exclude='config.lua' \
+              --exclude='docker/.env*' \
+              "${REPO_DIR}/" "${RUNTIME_DIR}/"
+
+            # Apply overrides layer on top of upstream content only when present.
+            echo "==> Applying overrides"
+            if [ -d "${REPO_DIR}/overrides/data" ]; then
+              rsync -a "${REPO_DIR}/overrides/data/" "${RUNTIME_DIR}/data/"
+            fi
+            if [ -d "${REPO_DIR}/overrides/data-global" ]; then
+              rsync -a "${REPO_DIR}/overrides/data-global/" "${RUNTIME_DIR}/data-global/"
+            fi
+            if [ -d "${REPO_DIR}/overrides/data-crystal" ]; then
+              rsync -a "${REPO_DIR}/overrides/data-crystal/" "${RUNTIME_DIR}/data-crystal/"
+            fi
+
+            # Isolate DEV config to runtime only.
+            if [ -f "${WEB_CONFIG_PATH}" ]; then
+              cp "${WEB_CONFIG_PATH}" "${RUNTIME_CONFIG_PATH}"
+            else
+              olmera-render-config dev
+              if [ ! -f "${REPO_DIR}/config.lua" ]; then
+                echo "ERROR: Missing ${REPO_DIR}/config.lua after render"
+                exit 1
+              fi
+              cp "${REPO_DIR}/config.lua" "${RUNTIME_CONFIG_PATH}"
+              GENERATED_REPO_CONFIG=1
+            fi
+
+            # Remove temporary repo config before cleanliness check.
+            if [ "${GENERATED_REPO_CONFIG}" = "1" ] && [ -f "${REPO_DIR}/config.lua" ]; then
+              rm -f "${REPO_DIR}/config.lua"
+              GENERATED_REPO_CONFIG=0
+            fi
+
+            # Enforce DEV-only ports in runtime config and reject QA/PROD ports.
+            if [ ! -f "${RUNTIME_CONFIG_PATH}" ]; then
+              echo "ERROR: Missing runtime config at ${RUNTIME_CONFIG_PATH}"
+              exit 1
+            fi
+            grep -Eq '^\s*loginProtocolPort\s*=\s*9291\b' "${RUNTIME_CONFIG_PATH}" || { echo "ERROR: loginProtocolPort must be 9291"; exit 1; }
+            grep -Eq '^\s*gameProtocolPort\s*=\s*9292\b' "${RUNTIME_CONFIG_PATH}" || { echo "ERROR: gameProtocolPort must be 9292"; exit 1; }
+            grep -Eq '^\s*statusProtocolPort\s*=\s*9291\b' "${RUNTIME_CONFIG_PATH}" || { echo "ERROR: statusProtocolPort must be 9291"; exit 1; }
+            if grep -Eq '^\s*(loginProtocolPort|gameProtocolPort|statusProtocolPort)\s*=\s*(9391|9392|7171|7172)\b' "${RUNTIME_CONFIG_PATH}"; then
+              echo "ERROR: runtime config contains QA/PROD ports"
+              exit 1
+            fi
+
+            # Repo checkout must stay clean after runtime build/mix.
+            if [ -n "$(git -C "${REPO_DIR}" status --porcelain)" ]; then
+              echo "ERROR: Repo checkout is dirty after deploy preparation"
+              git -C "${REPO_DIR}" status --short
+              exit 1
+            fi
+
+            echo "==> Restarting server container"
+            cd "${REPO_DIR}/docker"
+            docker compose -f docker-compose.dev.yml --env-file .env.dev up -d --no-build --no-deps --force-recreate olmeraot
+            docker compose -f docker-compose.dev.yml --env-file .env.dev ps olmeraot
+
+            echo "==> Validating DEV health"
+            olmera-check-health.sh dev
+
+        env:
+          OVERRIDES_REPO_TOKEN: ${{ secrets.OVERRIDES_REPO_TOKEN }}
