@@ -26,14 +26,10 @@ jobs:
             REPO_DIR="/opt/olmera/dev/repo"
             RUNTIME_DIR="/opt/olmera/dev/runtime"
             RUNTIME_CONFIG_PATH="${RUNTIME_DIR}/config.lua"
-            GENERATED_REPO_CONFIG=0
 
             cleanup() {
               git -C "${REPO_DIR}" config --local --unset-all \
                 url."https://${OVERRIDES_REPO_TOKEN}@github.com/".insteadOf || true
-              if [ "${GENERATED_REPO_CONFIG}" = "1" ]; then
-                rm -f "${REPO_DIR}/config.lua"
-              fi
             }
             trap cleanup EXIT
 
@@ -88,20 +84,8 @@ jobs:
               rsync -a "${REPO_DIR}/overrides/data-crystal/" "${RUNTIME_DIR}/data-crystal/"
             fi
 
-            # Generate DEV config into repo, then copy it into runtime only.
-            olmera-render-config dev
-            if [ ! -f "${REPO_DIR}/config.lua" ]; then
-              echo "ERROR: Missing ${REPO_DIR}/config.lua after render"
-              exit 1
-            fi
-            cp "${REPO_DIR}/config.lua" "${RUNTIME_CONFIG_PATH}"
-            GENERATED_REPO_CONFIG=1
-
-            # Remove temporary repo config before cleanliness check.
-            if [ "${GENERATED_REPO_CONFIG}" = "1" ] && [ -f "${REPO_DIR}/config.lua" ]; then
-              rm -f "${REPO_DIR}/config.lua"
-              GENERATED_REPO_CONFIG=0
-            fi
+            # Render DEV config directly into runtime (never touch repo/config.lua).
+            bash "${REPO_DIR}/overrides/ops/olmera-render-config" dev "${RUNTIME_CONFIG_PATH}"
 
             # Enforce DEV-only ports in runtime config and reject QA/PROD ports.
             if [ ! -f "${RUNTIME_CONFIG_PATH}" ]; then
