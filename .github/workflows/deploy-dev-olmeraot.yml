@@ -125,8 +125,8 @@ jobs:
 
             echo "==> Restarting server container"
             cd "${REPO_DIR}/docker"
-            docker compose -f docker-compose.dev.yml --env-file .env.dev up -d --no-build --no-deps --force-recreate olmeraot
-            docker compose -f docker-compose.dev.yml --env-file .env.dev ps olmeraot
+            docker compose -f docker-compose.dev.yml --env-file .env.dev up -d --no-build --no-deps --force-recreate server
+            docker compose -f docker-compose.dev.yml --env-file .env.dev ps server
 
             echo "==> Validating DEV health"
             olmera-check-health.sh dev

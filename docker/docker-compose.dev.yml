@@ -20,7 +20,7 @@ services:
       timeout: 5s
       retries: 10
 
-  olmeraot:
+  server:
     container_name: olmeraot-dev
     build:
       context: ..
