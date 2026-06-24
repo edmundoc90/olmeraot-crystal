@@ -35,7 +35,7 @@ services:
       - "${OT_SERVER_GAME_PORT}:${OT_SERVER_GAME_PORT}"
       - "${OT_SERVER_STATUS_PORT}:${OT_SERVER_STATUS_PORT}"
     volumes:
-        - ../:/srv/olmeraot
+      - /opt/olmera/dev/runtime:/srv/olmeraot
     depends_on:
       database:
         condition: service_healthy
