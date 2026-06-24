@@ -45,8 +45,9 @@ jobs:
           token: ${{ secrets.OVERRIDES_REPO_TOKEN }}
 
       - name: Set SHORT_SHA
+        id: short_sha
         run: |
-          echo "SHORT_SHA=$(echo ${GITHUB_SHA} | cut -c1-7)" >> $GITHUB_ENV
+          echo "value=$(echo ${GITHUB_SHA} | cut -c1-7)" >> $GITHUB_OUTPUT
 
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v2
@@ -72,25 +73,25 @@ jobs:
           cache-from: type=gha
           cache-to: type=gha,mode=max
           tags: |
-            ${{ env.IMAGE_REPOSITORY }}:dev-${{ env.SHORT_SHA }}
+            ${{ env.IMAGE_REPOSITORY }}:dev-${{ steps.short_sha.outputs.value }}
 
       - name: Validate and record image digest
+        id: image_meta
         run: |
+          SHORT_SHA="${{ steps.short_sha.outputs.value }}"
           if [ -z "${{ steps.build.outputs.digest }}" ]; then
             echo "Missing Docker image digest"
             exit 1
           fi
           IMAGE_REF="${{ env.IMAGE_REPOSITORY }}@${{ steps.build.outputs.digest }}"
-          echo "IMAGE=${{ env.IMAGE_REPOSITORY }}:dev-${SHORT_SHA}" >> $GITHUB_ENV
-          echo "IMAGE_DIGEST=${{ steps.build.outputs.digest }}" >> $GITHUB_ENV
-          echo "IMAGE_REF=${IMAGE_REF}" >> $GITHUB_ENV
-          printf '{"image":"%s","image_tag":"%s","image_id":"%s","commit":"%s"}' "${IMAGE_REF}" "${IMAGE}" "${IMAGE_DIGEST}" "${GITHUB_SHA}" > dev-image-${SHORT_SHA}.json
+          echo "image_ref=$IMAGE_REF" >> $GITHUB_OUTPUT
+          printf '{"image":"%s","image_tag":"%s","image_id":"%s","commit":"%s"}' "$IMAGE_REF" "${{ env.IMAGE_REPOSITORY }}:dev-$SHORT_SHA" "${{ steps.build.outputs.digest }}" "$GITHUB_SHA" > dev-image-$SHORT_SHA.json
 
       - name: Upload image metadata artifact
         uses: actions/upload-artifact@v4
         with:
-          name: dev-image-${{ env.SHORT_SHA }}
-          path: dev-image-${{ env.SHORT_SHA }}.json
+          name: dev-image-${{ steps.short_sha.outputs.value }}
+          path: dev-image-${{ steps.short_sha.outputs.value }}.json
 
       - name: Deploy to DEV host
         uses: appleboy/ssh-action@v0.1.8
@@ -99,5 +100,11 @@ jobs:
           username: ${{ secrets.VPS_SSH_USER }}
           key: ${{ secrets.VPS_SSH_PRIVATE_KEY }}
           port: ${{ secrets.VPS_SSH_PORT || '22' }}
+          envs: OVERRIDES_REPO_TOKEN
           script: |
-            /usr/local/bin/olmera-deploy.sh --env dev --image-digest "${{ env.IMAGE_REF }}" --release-id "dev-${{ env.SHORT_SHA }}"
+            set -euo pipefail
+            cd /opt/olmera/dev/repo
+            git fetch --prune origin "+refs/heads/dev:refs/remotes/origin/dev"
+            git checkout -B dev origin/dev
+            git reset --hard origin/dev
+            bash overrides/ops/olmera-deploy.sh --env dev --image-digest "${{ steps.image_meta.outputs.image_ref }}" --release-id "dev-${{ steps.short_sha.outputs.value }}"

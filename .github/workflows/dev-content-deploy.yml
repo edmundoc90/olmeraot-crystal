@@ -20,7 +20,8 @@ jobs:
           token: ${{ secrets.OVERRIDES_REPO_TOKEN }}
 
       - name: Capture SHORT_SHA
-        run: echo "SHORT_SHA=$(echo ${GITHUB_SHA} | cut -c1-7)" >> $GITHUB_ENV
+        id: short_sha
+        run: echo "value=$(echo ${GITHUB_SHA} | cut -c1-7)" >> $GITHUB_OUTPUT
 
       - name: Deploy content to DEV host (no build)
         uses: appleboy/ssh-action@v0.1.8
@@ -29,5 +30,11 @@ jobs:
           username: ${{ secrets.VPS_SSH_USER }}
           key: ${{ secrets.VPS_SSH_PRIVATE_KEY }}
           port: ${{ secrets.VPS_SSH_PORT || '22' }}
+          envs: OVERRIDES_REPO_TOKEN
           script: |
-            /usr/local/bin/olmera-deploy.sh --env dev --content-only --commit "${{ github.sha }}" --release-id "content-${{ env.SHORT_SHA }}"
+            set -euo pipefail
+            cd /opt/olmera/dev/repo
+            git fetch --prune origin "+refs/heads/dev:refs/remotes/origin/dev"
+            git checkout -B dev origin/dev
+            git reset --hard origin/dev
+            bash overrides/ops/olmera-deploy.sh --env dev --content-only --commit "${{ github.sha }}" --release-id "content-${{ steps.short_sha.outputs.value }}"

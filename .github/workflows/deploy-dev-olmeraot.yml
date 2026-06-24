@@ -25,7 +25,6 @@ jobs:
             BRANCH="${GITHUB_REF_NAME}"
             REPO_DIR="/opt/olmera/dev/repo"
             RUNTIME_DIR="/opt/olmera/dev/runtime"
-            WEB_CONFIG_PATH="/opt/olmera/dev/web-config/config.lua"
             RUNTIME_CONFIG_PATH="${RUNTIME_DIR}/config.lua"
             GENERATED_REPO_CONFIG=0
 
@@ -48,6 +47,11 @@ jobs:
             git -C "${REPO_DIR}" config --local \
               url."https://${OVERRIDES_REPO_TOKEN}@github.com/".insteadOf \
               "https://github.com/"
+
+            # Clean local DEV checkout so pipeline state always wins over manual changes.
+            git reset --hard
+            git clean -fd
+            git submodule foreach --recursive 'git reset --hard && git clean -fd' || true
 
             # Fetch exact remote branch state and reset local branch to it.
             git fetch --prune origin "+refs/heads/${BRANCH}:refs/remotes/origin/${BRANCH}"
@@ -84,18 +88,14 @@ jobs:
               rsync -a "${REPO_DIR}/overrides/data-crystal/" "${RUNTIME_DIR}/data-crystal/"
             fi
 
-            # Isolate DEV config to runtime only.
-            if [ -f "${WEB_CONFIG_PATH}" ]; then
-              cp "${WEB_CONFIG_PATH}" "${RUNTIME_CONFIG_PATH}"
-            else
-              olmera-render-config dev
-              if [ ! -f "${REPO_DIR}/config.lua" ]; then
-                echo "ERROR: Missing ${REPO_DIR}/config.lua after render"
-                exit 1
-              fi
-              cp "${REPO_DIR}/config.lua" "${RUNTIME_CONFIG_PATH}"
-              GENERATED_REPO_CONFIG=1
+            # Generate DEV config into repo, then copy it into runtime only.
+            olmera-render-config dev
+            if [ ! -f "${REPO_DIR}/config.lua" ]; then
+              echo "ERROR: Missing ${REPO_DIR}/config.lua after render"
+              exit 1
             fi
+            cp "${REPO_DIR}/config.lua" "${RUNTIME_CONFIG_PATH}"
+            GENERATED_REPO_CONFIG=1
 
             # Remove temporary repo config before cleanliness check.
             if [ "${GENERATED_REPO_CONFIG}" = "1" ] && [ -f "${REPO_DIR}/config.lua" ]; then
@@ -106,6 +106,16 @@ jobs:
             # Enforce DEV-only ports in runtime config and reject QA/PROD ports.
             if [ ! -f "${RUNTIME_CONFIG_PATH}" ]; then
               echo "ERROR: Missing runtime config at ${RUNTIME_CONFIG_PATH}"
+              exit 1
+            fi
+            grep -Eq '^\s*mysqlHost\s*=\s*"database"' "${RUNTIME_CONFIG_PATH}" || { echo "ERROR: mysqlHost must be \"database\""; exit 1; }
+            grep -Eq '^\s*mysqlPort\s*=\s*"3306"' "${RUNTIME_CONFIG_PATH}" || { echo "ERROR: mysqlPort must be \"3306\""; exit 1; }
+            if grep -Eq '^\s*mysqlHost\s*=\s*"127\.0\.0\.1"' "${RUNTIME_CONFIG_PATH}"; then
+              echo "ERROR: runtime config contains mysqlHost 127.0.0.1"
+              exit 1
+            fi
+            if grep -Eq '^\s*mysqlPort\s*=\s*"3309"' "${RUNTIME_CONFIG_PATH}"; then
+              echo "ERROR: runtime config contains mysqlPort 3309"
               exit 1
             fi
             grep -Eq '^\s*loginProtocolPort\s*=\s*9291\b' "${RUNTIME_CONFIG_PATH}" || { echo "ERROR: loginProtocolPort must be 9291"; exit 1; }
@@ -130,6 +140,19 @@ jobs:
 
             echo "==> Validating DEV health"
             olmera-check-health.sh dev
+
+            echo "==> Validating runtime mount"
+            MOUNT_BINDING="$(docker inspect --format '{{range .Mounts}}{{if eq .Destination "/srv/olmeraot"}}{{.Source}} -> {{.Destination}}{{end}}{{end}}' olmeraot-dev)"
+            if [ "${MOUNT_BINDING}" != "/opt/olmera/dev/runtime -> /srv/olmeraot" ]; then
+              echo "ERROR: Unexpected mount binding: ${MOUNT_BINDING}"
+              exit 1
+            fi
+
+            echo "==> Validating runtime paths inside container"
+            docker exec olmeraot-dev test -f /srv/olmeraot/config.lua
+            docker exec olmeraot-dev test -d /srv/olmeraot/data
+            docker exec olmeraot-dev test -d /srv/olmeraot/data-crystal
+            docker exec olmeraot-dev test -d /srv/olmeraot/data-global
 
         env:
           OVERRIDES_REPO_TOKEN: ${{ secrets.OVERRIDES_REPO_TOKEN }}
