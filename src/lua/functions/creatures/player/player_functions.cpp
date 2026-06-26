@@ -485,6 +485,7 @@ void PlayerFunctions::init(lua_State* L) {
 
 	Lua::registerMethod(L, "Player", "sendBannerType", PlayerFunctions::luaPlayersendBannerType);
 	Lua::registerMethod(L, "Player", "sendQuestProgress", PlayerFunctions::luaPlayerSendQuestStatusUpdate);
+	Lua::registerMethod(L, "Player", "sendLeaderMonsterKilledBanner", PlayerFunctions::luaPlayerSendLeaderMonsterKilledBanner);
 
 	Lua::registerMethod(L, "Player", "sendIconBakragore", PlayerFunctions::luaPlayerSendIconBakragore);
 	Lua::registerMethod(L, "Player", "removeIconBakragore", PlayerFunctions::luaPlayerRemoveIconBakragore);
@@ -5450,6 +5451,19 @@ int PlayerFunctions::luaPlayerSendQuestStatusUpdate(lua_State* L) {
 	player->sendScreenshotAndBannerProgressQuest(Lua::getString(L, 2), Lua::getBoolean(L, 3, false));
 	Lua::pushBoolean(L, true);
 	return 0;
+}
+
+int PlayerFunctions::luaPlayerSendLeaderMonsterKilledBanner(lua_State* L) {
+	// player:sendLeaderMonsterKilledBanner(raceId, charmPoints) -> "Echo Warden Killed" banner (shows the creature)
+	const auto &player = Lua::getUserdataShared<Player>(L, 1);
+	if (!player) {
+		lua_pushnil(L);
+		return 1;
+	}
+
+	player->sendScreenshotAndBannerLeaderMonsterKilled(Lua::getNumber<uint16_t>(L, 2), Lua::getNumber<uint32_t>(L, 3));
+	Lua::pushBoolean(L, true);
+	return 1;
 }
 
 int PlayerFunctions::luaPlayerSendIconBakragore(lua_State* L) {

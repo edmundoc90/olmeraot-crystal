@@ -2668,7 +2668,37 @@ float Monster::getAttackMultiplier() const {
 	if (auto stacks = getForgeStack(); stacks > 0) {
 		multiplier *= (1.35 + (stacks - 1) * 0.1);
 	}
+	if (echoWarden) {
+		multiplier *= echoAtkMult;
+	}
 	return multiplier;
+}
+
+bool Monster::applyEchoWarden(float hpMult, float atkMult) {
+	if (echoWarden) {
+		return false;
+	}
+	if (!mType) {
+		return false;
+	}
+	// Same protections as the forge/soulpit guards: never on summon/boss/fiendish/soulpit.
+	// (C: also excluded `dark`, but this fork has no dark-monster layer.)
+	if (isSummon() || mType->isBoss() || forgeStack > 0 || soulPit) {
+		return false;
+	}
+
+	echoWarden = true;
+	echoAtkMult = atkMult;
+
+	healthMax = static_cast<int32_t>(std::ceil(static_cast<float>(healthMax) * hpMult));
+	health = healthMax;
+	runAwayHealth = static_cast<int32_t>(std::ceil(static_cast<float>(runAwayHealth) * hpMult));
+
+	// Intense glow, distinct "warden" key (NOT "forge"); NO rename, classification stays NORMAL.
+	setIcon("warden", CreatureIcon(CreatureIconModifications_t::Fiendish, 0));
+	g_game().updateCreatureIcon(static_self_cast<Monster>());
+	g_game().sendUpdateCreature(static_self_cast<Monster>());
+	return true;
 }
 
 float Monster::getDefenseMultiplier() const {

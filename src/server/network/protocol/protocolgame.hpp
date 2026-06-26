@@ -570,6 +570,7 @@ private:
 	void parseWeaponProficiency(NetworkMessage &msg);
 	void sendWeaponProficiencyExperience(const uint16_t itemId, const uint32_t experience);
 	void sendWeaponProficiencyInfo(const uint16_t itemId);
+	void sendWeaponProficiencyReshapeOffers(const uint16_t itemId);
 
 	friend class Player;
 	friend class PlayerWheel;
@@ -624,6 +625,7 @@ private:
 	void sendScreenshotAndBannerUnlockedSpell(uint16_t spellId);
 	void sendScreenshotAndBannerBountyTaskFinished(uint16_t raceId);
 	void sendScreenshotAndBannerWeeklyTaskSpecificFinished(uint16_t raceId);
+	void sendScreenshotAndBannerLeaderMonsterKilled(uint16_t raceId, uint32_t charmPoints);
 
 	void sendDisableLoginMusic();
 

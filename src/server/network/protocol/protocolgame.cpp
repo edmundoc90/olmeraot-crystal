@@ -1591,7 +1591,7 @@ void ProtocolGame::parsePacketFromDispatcher(NetworkMessage &msg, uint8_t recvby
 
 		default:
 			std::string hexString = fmt::format("0x{:02x}", recvbyte);
-			g_logger().debug("Player '{}' sent unknown packet header: hex[{}], decimal[{}]", player->getName(), asUpperCaseString(hexString), recvbyte);
+			g_logger().warn("Player '{}' sent unknown packet header: hex[{}], decimal[{}]", player->getName(), asUpperCaseString(hexString), recvbyte);
 			break;
 	}
 }
@@ -1617,7 +1617,9 @@ void ProtocolGame::GetTileDescription(const std::shared_ptr<Tile> &tile, Network
 
 	int32_t count;
 	std::shared_ptr<Item> ground = tile->getGround();
-	if (ground) {
+	// 15.25+ clients reject a zero client-id appearance on a map tile ("field has more than
+	// one zero id appearance"); skip any tile thing whose ItemType resolves to id 0.
+	if (ground && Item::items[ground->getID()].id != 0) {
 		AddItem(msg, ground);
 		count = 1;
 	} else {
@@ -1627,6 +1629,9 @@ void ProtocolGame::GetTileDescription(const std::shared_ptr<Tile> &tile, Network
 	const TileItemVector* items = tile->getItemList();
 	if (items) {
 		for (auto it = items->getBeginTopItem(), end = items->getEndTopItem(); it != end; ++it) {
+			if (Item::items[(*it)->getID()].id == 0) {
+				continue; // skip zero client-id appearance (15.25+ map parser rejects it)
+			}
 			AddItem(msg, *it);
 
 			count++;
@@ -1671,6 +1676,9 @@ void ProtocolGame::GetTileDescription(const std::shared_ptr<Tile> &tile, Network
 
 	if (items) {
 		for (auto it = items->getBeginDownItem(), end = items->getEndDownItem(); it != end; ++it) {
+			if (Item::items[(*it)->getID()].id == 0) {
+				continue; // skip zero client-id appearance (15.25+ map parser rejects it)
+			}
 			AddItem(msg, *it);
 
 			if (++count == 10) {
@@ -2655,7 +2663,12 @@ void ProtocolGame::parseBestiarysendMonsterData(NetworkMessage &msg) {
 	newmsg.add<uint16_t>(mtype->info.bestiaryToUnlock);
 
 	newmsg.addByte(mtype->info.bestiaryStars);
+
+	// 15.25 (sommerrelease26): in the e2a4a1 client everything past the stars byte is gated on
+	// currentLevel != 0, and the occurrence byte is now followed by an extra (unconfirmed) byte.
+	if (currentLevel != 0) {
 	newmsg.addByte(mtype->info.bestiaryOccurrence);
+	newmsg.addByte(0);
 
 	std::vector<LootBlock> lootList = mtype->info.lootItems;
 	newmsg.addByte(lootList.size());
@@ -2721,6 +2734,7 @@ void ProtocolGame::parseBestiarysendMonsterData(NetworkMessage &msg) {
 		newmsg.add<uint16_t>(1);
 		newmsg.addString(mtype->info.bestiaryLocations);
 	}
+	} // end 15.25 (sommerrelease26) currentLevel != 0 gate
 
 	writeToOutputBuffer(newmsg);
 }
@@ -3296,10 +3310,14 @@ void ProtocolGame::parseBestiarySendCreatures(NetworkMessage &msg) {
 			}
 		}
 
+		// 15.25 (sommerrelease26): the e2a4a1 client reads a new per-creature byte right after the
+		// race id (before progress). It appears to be a "known/unlocked" flag, so derive it from the
+		// kill progress (0 keeps the silhouette, 1 reveals the entry). The progress block also gained
+		// an extra trailing byte (sent as 0 until its meaning is confirmed).
+		newmsg.addByte(progress > 0 ? 1 : 0);
+		newmsg.addByte(progress);
 		if (progress > 0) {
-			newmsg.addByte(progress);
 			newmsg.addByte(occurrence);
-		} else {
 			newmsg.addByte(0);
 		}
 
@@ -3542,30 +3560,22 @@ void ProtocolGame::parseSendResourceBalance() {
 
 void ProtocolGame::parseSendResourceBalance(NetworkMessage &msg) {
 	// Portable forge open (client UI): empty 0xED requests the forge item list (0x87).
+	// Do NOT prime m_lastForgeOpenTime here: leaving it stale makes the follow-up
+	// forge-resource request trigger a full re-open (sendOpenForge), which is what
+	// arms the window buttons. This mirrors the working path (use-item / /openforge).
 	if (!msg.canRead(1)) {
-		m_lastForgeOpenTime = OTSYS_TIME();
+		// Empty 0xED (portable-forge button): open the exaltation forge.
 		sendOpenForge();
 		return;
 	}
 
 	const auto resourceType = static_cast<Resource_t>(msg.getByte());
-	switch (resourceType) {
-		case RESOURCE_FORGE_DUST:
-		case RESOURCE_FORGE_SLIVER:
-		case RESOURCE_FORGE_CORES: {
-			const uint32_t now = OTSYS_TIME();
-			if (now - m_lastForgeOpenTime > 1000) {
-				m_lastForgeOpenTime = now;
-				sendOpenForge();
-			} else {
-				sendResourceBalance(resourceType);
-			}
-			break;
-		}
-		default:
-			sendResourceBalance(resourceType);
-			break;
-	}
+	// 15.25 (sommerrelease26): answer with the requested resource balance only. The Weapon
+	// Proficiency "Modify" panel polls the forge dust via 0xED (with a resource byte); the old
+	// portable-forge re-open hack popped the exaltation forge and never delivered the dust to
+	// the proficiency panel ("Not enough dust available"). Sending the balance fixes both the
+	// stray forge window and the missing dust.
+	sendResourceBalance(resourceType);
 }
 
 void ProtocolGame::sendResourceBalance(Resource_t resourceType) {
@@ -3600,6 +3610,12 @@ void ProtocolGame::sendResourceBalance(Resource_t resourceType) {
 			value = coreCount;
 			break;
 		}
+		case RESOURCE_FORGE_DUST_LIMIT:
+			// 15.25 (sommerrelease26): the client polls 0x49 for the forge dust cap (shown as the
+			// "/limit" next to current dust, and used by the Increase Dust Limit preview). The 0xEE
+			// parser reads this in the default branch as u64, which is what sendResourceBalance emits.
+			value = player->getForgeDustLevel();
+			break;
 		case RESOURCE_LESSER_GEMS:
 			value = player->getItemTypeCount(player->getVocation()->getWheelGemId(WheelGemQuality_t::Lesser));
 			break;
@@ -3846,6 +3862,7 @@ void ProtocolGame::addCreatureIcon(NetworkMessage &msg, const std::shared_ptr<Cr
 		msg.addByte(icon.serialize());
 		msg.addByte(static_cast<uint8_t>(icon.category));
 		msg.add<uint16_t>(icon.count);
+		msg.addByte(0); // 15.25 (sommerrelease26): new trailing per-icon byte
 	}
 }
 
@@ -6432,32 +6449,10 @@ void ProtocolGame::sendForgingData() {
 		msg.add<uint64_t>(price);
 	}
 
-	// (conversion) (left column top) Cost to make 1 bottom item - 20
-	msg.addByte(static_cast<uint8_t>(g_configManager().getNumber(FORGE_COST_ONE_SLIVER)));
-	// (conversion) (left column bottom) How many items to make - 3
-	msg.addByte(static_cast<uint8_t>(g_configManager().getNumber(FORGE_SLIVER_AMOUNT)));
-	// (conversion) (middle column top) Cost to make 1 - 50
-	msg.addByte(static_cast<uint8_t>(g_configManager().getNumber(FORGE_CORE_COST)));
-	// (conversion) (right column top) Current stored dust limit minus this number = cost to increase stored dust limit - 75
-	msg.addByte(75);
-	// (conversion) (right column bottom) Starting stored dust limit
-	msg.add<uint16_t>(player->getForgeDustLevel());
-	// (conversion) (right column bottom) Max stored dust limit - 325
-	msg.add<uint16_t>(g_configManager().getNumber(FORGE_MAX_DUST));
-	// (normal fusion) dust cost - 100
-	msg.addByte(static_cast<uint8_t>(g_configManager().getNumber(FORGE_FUSION_DUST_COST)));
-	// (convergence fusion) dust cost - 130
-	msg.addByte(static_cast<uint8_t>(g_configManager().getNumber(FORGE_CONVERGENCE_FUSION_DUST_COST)));
-	// (normal transfer) dust cost - 100
-	msg.addByte(static_cast<uint8_t>(g_configManager().getNumber(FORGE_TRANSFER_DUST_COST)));
-	// (convergence transfer) dust cost - 160
-	msg.addByte(static_cast<uint8_t>(g_configManager().getNumber(FORGE_CONVERGENCE_TRANSFER_DUST_COST)));
-	// (fusion) Base success rate - 50
-	msg.addByte(static_cast<uint8_t>(g_configManager().getNumber(FORGE_BASE_SUCCESS_RATE)));
-	// (fusion) Bonus success rate - 15
-	msg.addByte(static_cast<uint8_t>(g_configManager().getNumber(FORGE_BONUS_SUCCESS_RATE)));
-	// (fusion) Tier loss chance after reduction - 50
-	msg.addByte(static_cast<uint8_t>(g_configManager().getNumber(FORGE_TIER_LOSS_REDUCTION)));
+	// 15.25 (sommerrelease26): the 13.30 forge-config block (slot costs, dust limits,
+	// success rates) was dropped by the new client, which reads a single trailing byte
+	// here instead. Send 0 to keep alignment (forge config UI may show defaults).
+	msg.addByte(0);
 
 	// Update player resources
 	parseSendResourceBalance();
@@ -6697,7 +6692,7 @@ void ProtocolGame::sendOpenForge() {
 	msg.addByte(convergenceTransferCount);
 	msg.setBufferPosition(dustLevelPosition);
 
-	msg.add<uint16_t>(player->getForgeDustLevel()); // Player dust limit
+	msg.addByte(static_cast<uint8_t>(std::min<uint16_t>(player->getForgeDustLevel(), 0xFF))); // Player dust limit
 	writeToOutputBuffer(msg);
 	// Update forging informations
 	sendForgingData();
@@ -7428,6 +7423,7 @@ void ProtocolGame::sendCancelTarget() {
 	NetworkMessage msg;
 	msg.addByte(0xA3);
 	msg.add<uint32_t>(0x00);
+	msg.add<uint32_t>(0x00); // 15.25 (sommerrelease26): client reads a 2nd u32 here now
 	writeToOutputBuffer(msg);
 }
 
@@ -7747,6 +7743,12 @@ void ProtocolGame::sendAddTileItem(const Position &pos, uint32_t stackpos, const
 		return;
 	}
 
+	// Don't send a zero client-id appearance on a tile — the 15.25+ client rejects it
+	// ("field has more than one zero id appearance"); it can't render anyway.
+	if (!item || Item::items[item->getID()].id == 0) {
+		return;
+	}
+
 	NetworkMessage msg;
 	msg.addByte(0x6A);
 	msg.addPosition(pos);
@@ -7757,6 +7759,11 @@ void ProtocolGame::sendAddTileItem(const Position &pos, uint32_t stackpos, const
 
 void ProtocolGame::sendUpdateTileItem(const Position &pos, uint32_t stackpos, const std::shared_ptr<Item> &item) {
 	if (!canSee(pos)) {
+		return;
+	}
+
+	// Don't send a zero client-id appearance on a tile — the 15.25+ client rejects it.
+	if (!item || Item::items[item->getID()].id == 0) {
 		return;
 	}
 
@@ -8928,6 +8935,9 @@ void ProtocolGame::AddCreature(NetworkMessage &msg, const std::shared_ptr<Creatu
 	msg.add<uint16_t>(creature->getStepSpeed());
 
 	addCreatureIcon(msg, creature);
+	// 15.25 (sommerrelease26): the second creature-icon list (count2) is inline here in
+	// AddCreature only — sendCreatureIcon (0x8B) sends each list as its own typed message.
+	msg.addByte(0);
 
 	msg.addByte(player->getSkullClient(creature));
 	msg.addByte(player->getPartyShield(otherPlayer));
@@ -10851,6 +10861,22 @@ void ProtocolGame::sendScreenshotAndBannerWeeklyTaskSpecificFinished(uint16_t ra
 	writeToOutputBuffer(msg);
 }
 
+void ProtocolGame::sendScreenshotAndBannerLeaderMonsterKilled(uint16_t raceId, uint32_t charmPoints) {
+	if (oldProtocol) {
+		return;
+	}
+
+	// Client GameEventTypeLeaderMonsterKilled (banner subtype 0x0e): creature race id (uint16) + charm
+	// points (uint32). The client resolves the race id to the creature and renders the
+	// "Echo Warden Killed / You have received N Charm Points" banner with the creature shown.
+	NetworkMessage msg;
+	msg.addByte(0x75);
+	msg.addByte(SCREENSHOT_AND_BANNER_TYPE_LEADER_MONSTER);
+	msg.add<uint16_t>(raceId);
+	msg.add<uint32_t>(charmPoints);
+	writeToOutputBuffer(msg);
+}
+
 void ProtocolGame::sendOutfitWindowCustomOTCR(NetworkMessage &msg) {
 	if (!isOTCR) {
 		return;
@@ -11309,6 +11335,64 @@ void ProtocolGame::parseWeaponProficiency(NetworkMessage &msg) {
 		}
 
 		player->applyEquippedWeaponProficiency(itemId);
+
+	} else if (type == WEAPON_PROFICIENCY_MODIFY_SLOT) {
+		const uint16_t itemId = msg.get<uint16_t>();
+		const uint8_t proficiencyLevel = msg.getByte();
+		const uint8_t perkPosition = msg.getByte();
+		while (msg.canRead(1)) { // trailing flag byte (observed 0x49) — purpose unknown; drain it.
+			msg.getByte();
+		}
+		player->modifyWeaponProficiencySlot(itemId, proficiencyLevel, perkPosition);
+
+	} else if (type == WEAPON_PROFICIENCY_REFINE_SLOT) {
+		const uint16_t itemId = msg.get<uint16_t>();
+		const uint8_t proficiencyLevel = msg.getByte();
+		const uint8_t perkPosition = msg.getByte();
+		while (msg.canRead(1)) { // trailing flag byte (observed 0xCF) — drain it.
+			msg.getByte();
+		}
+		player->refineWeaponProficiencySlot(itemId, proficiencyLevel, perkPosition);
+
+	} else if (type == WEAPON_PROFICIENCY_MAXIMISE_SLOT) {
+		const uint16_t itemId = msg.get<uint16_t>();
+		const uint8_t proficiencyLevel = msg.getByte();
+		const uint8_t perkPosition = msg.getByte();
+		while (msg.canRead(1)) { // trailing flag byte (observed 0x90) — drain it.
+			msg.getByte();
+		}
+		player->maximiseWeaponProficiencySlot(itemId, proficiencyLevel, perkPosition);
+
+	} else if (type == WEAPON_PROFICIENCY_RESHAPE_SLOT) {
+		const uint16_t itemId = msg.get<uint16_t>();
+		const uint8_t proficiencyLevel = msg.getByte();
+		const uint8_t perkPosition = msg.getByte();
+		while (msg.canRead(1)) { // trailing flag byte (observed 0x46 / 0x60) — drain it.
+			msg.getByte();
+		}
+		player->reshapeWeaponProficiencySlot(itemId, proficiencyLevel, perkPosition);
+
+	} else if (type == WEAPON_PROFICIENCY_PICK_OFFER) {
+		// Payload CONFIRMED live (D8 0C 00 00 00 00): itemId(u16) + slot level + slot pos + chosen offer index + flag.
+		const uint16_t itemId = msg.canRead(2) ? msg.get<uint16_t>() : 0;
+		const uint8_t proficiencyLevel = msg.canRead(1) ? msg.getByte() : 0; // echoed slot (unused)
+		const uint8_t perkPosition = msg.canRead(1) ? msg.getByte() : 0;
+		const uint8_t offerIndex = msg.canRead(1) ? msg.getByte() : 0;
+		(void)proficiencyLevel;
+		(void)perkPosition;
+		while (msg.canRead(1)) {
+			msg.getByte();
+		}
+		player->pickReshapeWeaponProficiencyOffer(itemId, offerIndex);
+
+	} else if (type == WEAPON_PROFICIENCY_CLEAR_SLOT) {
+		const uint16_t itemId = msg.get<uint16_t>();
+		const uint8_t proficiencyLevel = msg.getByte();
+		const uint8_t perkPosition = msg.getByte();
+		while (msg.canRead(1)) { // trailing flag byte (observed 0xF2) — drain it.
+			msg.getByte();
+		}
+		player->clearWeaponProficiencySlot(itemId, proficiencyLevel, perkPosition);
 	}
 }
 
@@ -11343,8 +11427,54 @@ void ProtocolGame::sendWeaponProficiencyInfo(const uint16_t itemId) {
 			msg.addByte(perk.proficiencyLevel - 1);
 			msg.addByte(perk.perkPosition - 1);
 		}
+		// 15.25 (sommerrelease26) SHAPE: a SECOND list right after the active perks carries the modified slots:
+		// [level(0-based), position(0-based), perkType:u16 (client catalogue index), value]. The client renders
+		// the rolled perk from the catalogue index. See PORT.md §7.4.
+		msg.addByte(static_cast<uint8_t>(proficiency.modifiedSlots.size()));
+		for (const auto &slot : proficiency.modifiedSlots) {
+			msg.addByte(slot.proficiencyLevel - 1);
+			msg.addByte(slot.perkPosition - 1);
+			msg.add<uint16_t>(static_cast<uint16_t>(slot.perkType));
+			msg.addByte(slot.value);
+		}
 		writeToOutputBuffer(msg);
 	}
+}
+
+void ProtocolGame::sendWeaponProficiencyReshapeOffers(const uint16_t itemId) {
+	if (oldProtocol || !player) {
+		return;
+	}
+
+	auto it = player->weaponProficiencies.find(itemId);
+	if (it == player->weaponProficiencies.end()) {
+		return;
+	}
+	const auto &offers = it->second.pendingReshapeOffers;
+
+	// 15.25 (sommerrelease26): Reshape offers = opcode 0xBB (Ghidra-confirmed FUN_140601bf0). NOT 0xC7 (that is
+	// CyclopediaCurrentHouseData). Wire: u16 itemId · byte curLevel · byte curPos · byte count · count×{u16 perkType, byte value}.
+	// Each offer uses the same perkType+rank encoding as a 0xC4 modified slot (no name string). See PORT.md §7.4.
+	uint8_t rank = 1;
+	for (const auto &slot : it->second.modifiedSlots) {
+		if (slot.proficiencyLevel == it->second.pendingReshapeLevel && slot.perkPosition == it->second.pendingReshapePosition) {
+			rank = std::max<uint8_t>(1, slot.value);
+			break;
+		}
+	}
+
+	NetworkMessage msg;
+	msg.addByte(0xBB);
+	msg.add<uint16_t>(itemId);
+	msg.addByte(it->second.pendingReshapeLevel - 1); // current slot (0-based on the wire, like active perks)
+	msg.addByte(it->second.pendingReshapePosition - 1);
+	msg.addByte(static_cast<uint8_t>(offers.size()));
+	for (const auto perkType : offers) {
+		msg.add<uint16_t>(static_cast<uint16_t>(perkType));
+		msg.addByte(rank);
+	}
+
+	writeToOutputBuffer(msg);
 }
 
 void ProtocolGame::parseExivaRestrictions(NetworkMessage &msg) {
